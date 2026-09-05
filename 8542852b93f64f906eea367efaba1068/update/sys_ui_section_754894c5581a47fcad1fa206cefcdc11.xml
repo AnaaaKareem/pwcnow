@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Employee Training" section_id="754894c5581a47fcad1fa206cefcdc11" sys_domain="global" table="x_2182380_pwcnow_employee_training" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>b6de5a6b39cc4584baed6e1a8b114a65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_training_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>8cb8976a35bf47dc8ba69ef479ceab45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assigned_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>7d05365dfc404bbc891dc1ac69e72fba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_completion_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>deef81fc577449ef8d2da72b5d6f2f0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>c4c066e5262046cc9d1ea21ccd62b50d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>0878a1106cb0426cb1298ad504cc3e3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>b4f032620730468ebf2fafa44ba08ce6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_due_date</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>bc62cc59924f4f369fea909cf329e754</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_id>05879c350f0f44ffb2bc0d863844f135</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Training" display_value="Employee Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">754894c5581a47fcad1fa206cefcdc11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Employee Training</caption>
+            <header>false</header>
+            <name>x_2182380_pwcnow_employee_training</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-02 10:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>754894c5581a47fcad1fa206cefcdc11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2182380_pwcnow_employee_training</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+            <sys_update_name>sys_ui_section_754894c5581a47fcad1fa206cefcdc11</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-02 10:11:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_info">
+    <sys_app_info action="INSERT_OR_UPDATE">
+        <properties>{"generated_using_ba":"true"}</properties>
+        <sys_class_name>sys_app_info</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 10:11:06</sys_created_on>
+        <sys_id>ba8ea20e930783146eea367efaba1080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_app_info_ba8ea20e930783146eea367efaba1080</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-02 10:11:06</sys_updated_on>
+    </sys_app_info>
+</record_update>

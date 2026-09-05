@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="DELETE">
+    <sys_id>62b9d8db813b4000afda8f71ec8fb96b</sys_id>
+    <sys_scope display_value="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_scope>
+    <sys_update_name>sys_app_module_62b9d8db813b4000afda8f71ec8fb96b</sys_update_name>
+    <active>true</active>
+    <application>1b2bcad3ae524a70b9d2e3c3d5eb04ff</application>
+    <hint>Service catalog and request management</hint>
+    <link_type>DIRECT</link_type>
+    <order>300</order>
+    <query>x_2182380_pwcnow_it_agent_dashboard.do</query>
+    <title>IT Agent Dashboard</title>
+  </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_app_module_62b9d8db813b4000afda8f71ec8fb96b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>62b9d8db813b4000afda8f71ec8fb96b</sys_id>
+    <sys_scope display_value="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_scope>
+    <sys_update_name>sys_app_module_62b9d8db813b4000afda8f71ec8fb96b</sys_update_name>
+    <active>true</active>
+    <application>1b2bcad3ae524a70b9d2e3c3d5eb04ff</application>
+    <hint>Service catalog and request management</hint>
+    <link_type>DIRECT</link_type>
+    <order>300</order>
+    <query>x_2182380_pwcnow_it_agent_dashboard.do</query>
+    <title>IT Agent Dashboard</title>
+  </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-1984745824</payload_hash>
+        <record_name>IT Agent Dashboard</record_name>
+        <reverted_from/>
+        <source>e3e21386934b83146eea367efaba108a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fhashem</sys_created_by>
+        <sys_created_on>2026-09-02 12:50:07</sys_created_on>
+        <sys_id>ccf25386934b83146eea367efaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0622b6a3b0000001</sys_recorded_at>
+        <sys_updated_by>fhashem</sys_updated_by>
+        <sys_updated_on>2026-09-02 12:50:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8cf25386d64b8314513ae13ba7ce1024</update_guid>
+        <update_guid_history>8cf25386d64b8314513ae13ba7ce1024:-1984745824</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IT Agent Dashboard">e593ef0e93cb83146eea367efaba106b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fhashem</sys_created_by>
+        <sys_created_on>2026-09-02 14:02:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>545086f9733e4f80a9a5c7db37d7de40</sys_id>
+        <sys_metadata>62b9d8db813b4000afda8f71ec8fb96b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Agent Dashboard</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_app_module_62b9d8db813b4000afda8f71ec8fb96b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_62b9d8db813b4000afda8f71ec8fb96b">ccf25386934b83146eea367efaba1025</sys_update_version>
+        <sys_updated_by>fhashem</sys_updated_by>
+        <sys_updated_on>2026-09-02 14:02:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

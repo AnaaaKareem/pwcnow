@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>Standard variable set containing Requested By, Requested For, and Short Description.</description>
+        <display_title>false</display_title>
+        <internal_name>pwcnow_common_variables</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 10:34:52</sys_created_on>
+        <sys_id>272721e793ba4f906eea367efaba10fd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>PwCNow Common Variables</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>item_option_new_set_272721e793ba4f906eea367efaba10fd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-26 11:13:04</sys_updated_on>
+        <title>PwCNow Common Variables</title>
+        <type>one_to_one</type>
+        <version>5</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

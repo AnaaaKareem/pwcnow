@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_2182380_pwcnow_employee_document" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_2182380_pwcnow_employee_document</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sattia</sys_created_by>
+            <sys_created_on>2026-08-25 13:18:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+            <sys_update_name>sys_choice_x_2182380_pwcnow_employee_document_u_status</sys_update_name>
+            <sys_updated_by>sattia</sys_updated_by>
+            <sys_updated_on>2026-08-25 13:18:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_2182380_pwcnow_employee_document</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sattia</sys_created_by>
+            <sys_created_on>2026-08-25 13:18:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sattia</sys_updated_by>
+            <sys_updated_on>2026-08-25 13:18:52</sys_updated_on>
+            <value>requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted</label>
+            <language>en</language>
+            <name>x_2182380_pwcnow_employee_document</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sattia</sys_created_by>
+            <sys_created_on>2026-08-25 13:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-04 12:25:03</sys_updated_on>
+            <value>accepted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Returned</label>
+            <language>en</language>
+            <name>x_2182380_pwcnow_employee_document</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sattia</sys_created_by>
+            <sys_created_on>2026-08-25 13:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-04 12:25:03</sys_updated_on>
+            <value>returned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_2182380_pwcnow_employee_document</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-04 12:25:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-04 12:25:03</sys_updated_on>
+            <value>cancelled</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

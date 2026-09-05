@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_data_interface>false</is_data_interface>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>Employe Document</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_2182380_pwcnow_employe_document</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 13:00:33</sys_created_on>
+        <sys_id>f2688ae793328f906eea367efaba1086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employe Document</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_db_object_f2688ae793328f906eea367efaba1086</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 13:00:33</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_2182380_pwcnow.employe_document_user" name="x_2182380_pwcnow.employe_document_user">7298022b93328f906eea367efaba10c8</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_db_object_f2688ae793328f906eea367efaba1086</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Employe Document</label><live_feed_enabled>false</live_feed_enabled><name>x_2182380_pwcnow_employe_document</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-25 13:00:33</sys_created_on><sys_id>f2688ae793328f906eea367efaba1086</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employe Document</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sys_db_object_f2688ae793328f906eea367efaba1086</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-25 13:00:33</sys_updated_on><update_access>false</update_access><user_role display_value="x_2182380_pwcnow.employe_document_user" name="x_2182380_pwcnow.employe_document_user">7298022b93328f906eea367efaba10c8</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-140755812</payload_hash>
+        <record_name>Employe Document</record_name>
+        <reverted_from/>
+        <source>1542852b93f64f906eea367efaba107e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 13:00:35</sys_created_on>
+        <sys_id>6798822b93328f906eea367efaba106b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a039021f430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 13:00:35</sys_updated_on>
+        <type>Table</type>
+        <update_guid>2798822b3c328f90819535ec2f51766a</update_guid>
+        <update_guid_history>2798822b3c328f90819535ec2f51766a:-140755812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 13:01:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0013284a6ff74e0b83e027a5db407e79</sys_id>
+        <sys_metadata>f2688ae793328f906eea367efaba1086</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employe Document</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_db_object_f2688ae793328f906eea367efaba1086</sys_update_name>
+        <sys_update_version display_value="sys_db_object_f2688ae793328f906eea367efaba1086">6798822b93328f906eea367efaba106b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 13:01:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

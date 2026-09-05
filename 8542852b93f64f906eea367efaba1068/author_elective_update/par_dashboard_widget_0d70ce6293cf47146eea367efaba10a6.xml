@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0eff392293cf47146eea367efaba1039</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1k1ke2lhhai710u9rbv","filterName":"Master Executive Date Filter","filterCustomId":"","filterComponentType":"singleselect","defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"4eff392293cf47146eea367efaba1035","isDashboard":true,"isGroup":false,"value":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Master Executive Date Filter","code":"PAR_DASHBOARD.0eff392293cf47146eea367efaba1039.0d70ce6293cf47146eea367efaba10a6"},{"comment":"","message":"Apply","code":"PAR_DASHBOARD.0eff392293cf47146eea367efaba1039.0d70ce6293cf47146eea367efaba10a6"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 20:06:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d70ce6293cf47146eea367efaba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_widget_0d70ce6293cf47146eea367efaba10a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 20:06:41</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>0</x>
+        <y>72</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>par_dashboard_widget_0d70ce6293cf47146eea367efaba10a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0eff392293cf47146eea367efaba1039</canvas><component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component><component_props>{"filterId":"1k1ke2lhhai710u9rbv","filterName":"Master Executive Date Filter","filterCustomId":"","filterComponentType":"singleselect","defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"4eff392293cf47146eea367efaba1035","isDashboard":true,"isGroup":false,"value":[]}</component_props><h>4</h><name/><required_translations>[{"comment":"","message":"Master Executive Date Filter","code":"PAR_DASHBOARD.0eff392293cf47146eea367efaba1039.0d70ce6293cf47146eea367efaba10a6"},{"comment":"","message":"Apply","code":"PAR_DASHBOARD.0eff392293cf47146eea367efaba1039.0d70ce6293cf47146eea367efaba10a6"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-03 20:06:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0d70ce6293cf47146eea367efaba10a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>par_dashboard_widget_0d70ce6293cf47146eea367efaba10a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-03 20:06:41</sys_updated_on><visualization/><w>7</w><widget_props/><x>0</x><y>72</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1803077654</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1542852b93f64f906eea367efaba107e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 20:06:41</sys_created_on>
+        <sys_id>0970ce6293cf47146eea367efaba10aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a068e1784b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 20:06:41</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>c570ce6215cf4714b3a41cfa2f20eaa9</update_guid>
+        <update_guid_history>c570ce6215cf4714b3a41cfa2f20eaa9:-1803077654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e34fd8be9383c7146eea367efaba10e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 07:40:44</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0c1615ef2bf544b88d2004701c4d3a10</sys_id>
+        <sys_metadata>0d70ce6293cf47146eea367efaba10a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_0d70ce6293cf47146eea367efaba10a6</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_0d70ce6293cf47146eea367efaba10a6">0970ce6293cf47146eea367efaba10aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 07:40:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

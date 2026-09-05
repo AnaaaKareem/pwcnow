@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="5d20ae4e938383146eea367efaba104a" label="Requests" max_length="40" name="x_2182380_pwcnow_requests" type="collection">
+        <element label="Requested Item" max_length="32" name="u_requested_item" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Request ID" max_length="40" name="number" read_only="true" read_only_option="display_read_only" type="string"/>
+        <index name="index">
+            <element name="u_requested_item"/>
+        </index>
+    </element>
+</database>

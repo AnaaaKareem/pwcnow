@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_reviewer_comments</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-26 10:21:56</sys_created_on>
+        <sys_id>b3cde6b3937603d06eea367efaba107b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_reviewer_comments</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b3cde6b3937603d06eea367efaba107b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-26 11:08:03</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_document</table>
+        <ui_policy display_value="Show and mandate comments on Returned">3fe6923793b203d06eea367efaba108a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=b3cde6b3937603d06eea367efaba107b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_ui_policy_action_b3cde6b3937603d06eea367efaba107b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_reviewer_comments</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-26 10:21:56</sys_created_on><sys_id>b3cde6b3937603d06eea367efaba107b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_reviewer_comments</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sys_ui_policy_action_b3cde6b3937603d06eea367efaba107b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-26 11:08:03</sys_updated_on><table>x_2182380_pwcnow_employee_document</table><ui_policy display_value="Show and mandate comments on Returned">3fe6923793b203d06eea367efaba108a</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=b3cde6b3937603d06eea367efaba107b"/></record_update>]]></payload>
+        <payload_hash>349393502</payload_hash>
+        <record_name>u_reviewer_comments</record_name>
+        <reverted_from/>
+        <source>1542852b93f64f906eea367efaba107e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-26 11:08:03</sys_created_on>
+        <sys_id>7878fe7b93b603d06eea367efaba10ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a03dc174cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-26 11:08:03</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>3878fe7b0bb603d074d2b1e18e3e56e9</update_guid>
+        <update_guid_history>3878fe7b0bb603d074d2b1e18e3e56e9:349393502,d1ed6ab39a7603d05bd5c7b8b8dc35b2:-466111362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 11:23:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>14f5958e8d754098848c95d77c7e8990</sys_id>
+        <sys_metadata>b3cde6b3937603d06eea367efaba107b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reviewer_comments</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b3cde6b3937603d06eea367efaba107b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b3cde6b3937603d06eea367efaba107b">7878fe7b93b603d06eea367efaba10ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-02 11:23:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

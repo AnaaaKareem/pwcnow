@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="eed8026b93328f906eea367efaba1008" label="Employee Document" max_length="40" name="x_2182380_pwcnow_employee_document" type="collection">
+        <element label="Reviewer Comments" max_length="4000" name="u_reviewer_comments" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Document ID" max_length="45" name="u_document_id" type="string"/>
+        <element label="Reviewed By" max_length="32" name="u_reviewed_by" read_only="true" read_only_option="display_read_only" reference="sys_user" type="reference"/>
+        <element label="Document Attachment" max_length="40" name="u_document_attachment" type="file_attachment"/>
+        <element choice="3" default="requested" label="Status" max_length="255" name="u_status" read_only="true" read_only_option="display_read_only" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned" sequence="2" value="returned"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Accepted" sequence="1" value="accepted"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Due Date" max_length="40" name="u_due_date" read_only="true" read_only_option="display_read_only" type="glide_date"/>
+        <element active="false" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Employee" max_length="32" name="u_employee" read_only="true" read_only_option="display_read_only" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element choice="1" label="Document Type" max_length="40" name="u_document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tax Form" sequence="2" value="tax_form"/>
+                <element inactive_on_update="false" label="Degree Certificate" sequence="3" value="degree_certificate"/>
+                <element inactive_on_update="false" label="Passport" sequence="1" value="passport"/>
+                <element inactive_on_update="false" label="ID Card" sequence="0" value="id_card"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_employee"/>
+        </index>
+        <index name="index2">
+            <element name="u_reviewed_by"/>
+        </index>
+    </element>
+</database>

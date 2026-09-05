@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Fulfiller role for HR staff to create document requests, review and accept/return employee file submissions, assign training courses, and track compliance reports.</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>CsE6VlYBkd8F1VdF1ro6hS4etuuKUl2LjXFv3LhCL2Y=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2182380_pwcnow.hr_agent</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>hr_agent</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>fhashem</sys_created_by>
+        <sys_created_on>2026-08-25 13:28:12</sys_created_on>
+        <sys_id>e84e02a793728f906eea367efaba103c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.hr_agent</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_user_role_e84e02a793728f906eea367efaba103c</sys_update_name>
+        <sys_updated_by>fhashem</sys_updated_by>
+        <sys_updated_on>2026-08-25 13:28:12</sys_updated_on>
+    </sys_user_role>
+</record_update>

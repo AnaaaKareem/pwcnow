@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Fulfiller role for IT technicians to receive, review, configure, and close out catalog fulfillment tasks</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>a9QREDMgrJ0McfiLY5A0ddhhUGTbmm5bR6S7WN6kjRE=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2182380_pwcnow.it_agent</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>it_agent</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>sattia</sys_created_by>
+        <sys_created_on>2026-08-25 13:29:05</sys_created_on>
+        <sys_id>5e2eca6793728f906eea367efaba10df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.it_agent</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_user_role_5e2eca6793728f906eea367efaba10df</sys_update_name>
+        <sys_updated_by>sattia</sys_updated_by>
+        <sys_updated_on>2026-08-25 13:29:05</sys_updated_on>
+    </sys_user_role>
+</record_update>

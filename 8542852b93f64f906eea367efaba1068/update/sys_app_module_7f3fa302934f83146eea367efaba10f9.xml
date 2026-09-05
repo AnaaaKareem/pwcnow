@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="PwCNow">7920eb4693cb83146eea367efaba1091</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>HR &amp; IT Dashboards</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/c2fff12293cf47146eea367efaba10dc/__state__/b64~eyI5MjNhOTEzYjUzMmMwMTEwYWFiOWRkZWVmZjdiMTI0MyI6eyJsaXN0X2NvbnRyb2xsZXJfMyI6eyJfIjp7InF1ZXJ5IjoidV9yZXF1ZXN0ZWRfaXRlbS5hY3RpdmU9dHJ1ZSJ9fX19</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2182380_pwcnow.director</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 14:55:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f3fa302934f83146eea367efaba10f9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Executive Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_app_module_7f3fa302934f83146eea367efaba10f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 07:52:21</sys_updated_on>
+        <timeline_page/>
+        <title>Executive Dashboard</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name>Executive Dashboard</window_name>
+    </sys_app_module>
+</record_update>

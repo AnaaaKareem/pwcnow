@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c5f8466b93328f906eea367efaba1080" label="Employee Training" max_length="40" name="x_2182380_pwcnow_employee_training" type="collection">
+        <element active="false" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Training ID" max_length="45" name="u_training_id" type="string"/>
+        <element label="Training Name" max_length="40" name="u_training_name" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="Employee" max_length="32" name="u_employee" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element default="javascript:gs.getUserID();" label="Assigned By" max_length="32" name="u_assigned_by" read_only="true" read_only_option="display_read_only" reference="sys_user" type="reference"/>
+        <element default="assigned" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Assigned" sequence="0" value="assigned"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Overdue" sequence="3" value="overdue"/>
+            </choice>
+        </element>
+        <element label="Due Date" max_length="40" name="u_due_date" read_only="true" read_only_option="display_read_only" type="glide_date"/>
+        <element label="Completion Date" max_length="40" name="u_completion_date" read_only="true" read_only_option="display_read_only" type="glide_date"/>
+        <index name="index">
+            <element name="u_assigned_by"/>
+        </index>
+        <index name="index2">
+            <element name="u_employee"/>
+        </index>
+    </element>
+</database>

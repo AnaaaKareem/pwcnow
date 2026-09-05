@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>SNS</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>a942852b93f64f906eea367efaba10ec</logo>
+        <menu/>
+        <name>PwCNow</name>
+        <package_json/>
+        <package_resolver_version>1.0.0</package_resolver_version>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_2182380_pwcnow</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_2182380_pwcnow</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 07:53:14</sys_created_on>
+        <sys_id>8542852b93f64f906eea367efaba1068</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 07:53:16</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=8542852b93f64f906eea367efaba1068"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>pwc.png</file_name>
+        <hash>2f7645ccebebc93c1c38b71ad3db82ea90f53adca544eec721fa7cebf91dd001</hash>
+        <image_height>50</image_height>
+        <image_width>103</image_width>
+        <size_bytes>1749</size_bytes>
+        <size_compressed>1772</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 07:53:15</sys_created_on>
+        <sys_id>a942852b93f64f906eea367efaba10ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 07:53:16</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>8542852b93f64f906eea367efaba1068</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="pwc.png" sys_id="a942852b93f64f906eea367efaba10ec">a942852b93f64f906eea367efaba10ec</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 07:53:15</sys_created_on>
+        <sys_id>e942852b93f64f906eea367efaba10ec</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2352</length>
+        <position>1</position>
+        <sys_attachment display_value="pwc.png" sys_id="a942852b93f64f906eea367efaba10ec">a942852b93f64f906eea367efaba10ec</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 07:53:15</sys_created_on>
+        <sys_id>ad42852b93f64f906eea367efaba10ec</sys_id>
+    </sys_attachment_doc>
+</record_update>
