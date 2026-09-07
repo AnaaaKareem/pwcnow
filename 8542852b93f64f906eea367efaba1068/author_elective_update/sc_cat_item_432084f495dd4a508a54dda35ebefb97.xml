@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type/>
+        <active>false</active>
+        <availability/>
+        <billable>false</billable>
+        <category/>
+        <cc_render_type/>
+        <checked_out/>
+        <cost/>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time/>
+        <description/>
+        <display_price_property/>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type/>
+        <model/>
+        <name>Request a Laptop</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order/>
+        <ordered_item_link/>
+        <owner/>
+        <picture/>
+        <preview/>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <secondary_owners/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 11:23:56</sys_created_on>
+        <sys_id>432084f495dd4a508a54dda35ebefb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a Laptop</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sc_cat_item_432084f495dd4a508a54dda35ebefb97</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-02 11:23:56</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type/>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor/>
+        <version/>
+        <visible_bundle>false</visible_bundle>
+        <visible_guide>false</visible_guide>
+        <visible_standalone>false</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=432084f495dd4a508a54dda35ebefb97"/>
+    <fx_price action="DELETE" query="id=432084f495dd4a508a54dda35ebefb97"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sc_cat_item_432084f495dd4a508a54dda35ebefb97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type/><active>false</active><availability/><billable>false</billable><category/><cc_render_type/><checked_out/><cost/><custom_cart/><delivery_plan/><delivery_plan_script/><delivery_time/><description/><display_price_property/><entitlement_script/><flow_designer_flow/><fulfillment_automation_level/><group/><hide_sp>false</hide_sp><icon/><ignore_price>false</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type/><model/><name>Request a Laptop</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order/><ordered_item_link/><owner/><picture/><preview/><published_ref/><recurring_frequency/><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><secondary_owners/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-02 11:23:56</sys_created_on><sys_id>432084f495dd4a508a54dda35ebefb97</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request a Laptop</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sc_cat_item_432084f495dd4a508a54dda35ebefb97</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-02 11:23:56</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type/><use_sc_layout>false</use_sc_layout><vendor/><version/><visible_bundle>false</visible_bundle><visible_guide>false</visible_guide><visible_standalone>false</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=432084f495dd4a508a54dda35ebefb97"/><fx_price action="delete_multiple" query="id=432084f495dd4a508a54dda35ebefb97"/></record_update>]]></payload>
+        <payload_hash>1243224824</payload_hash>
+        <record_name>Request a Laptop</record_name>
+        <reverted_from/>
+        <source>1542852b93f64f906eea367efaba107e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 13:25:09</sys_created_on>
+        <sys_id>55fa538a938b83146eea367efaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0624b7c5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-02 13:25:09</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>9dfa538a908b8314e55e178954f659b8</update_guid>
+        <update_guid_history>9dfa538a908b8314e55e178954f659b8:0,a53ff24eb5878314b6e25db4c28f71ae:-436940529</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request a Laptop">5fc91e57934b43106eea367efaba102c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-06 05:52:53</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>3273720afead40708d81f8f4c74d9840</sys_id>
+        <sys_metadata>432084f495dd4a508a54dda35ebefb97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a Laptop</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sc_cat_item_432084f495dd4a508a54dda35ebefb97</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_432084f495dd4a508a54dda35ebefb97">55fa538a938b83146eea367efaba10b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-06 05:52:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
