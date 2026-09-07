@@ -10,34 +10,34 @@
         <image/>
         <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>IT Dashboard</mobile_title>
+        <mobile_title>Request Item</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>1300</order>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/305e3d2e938f47146eea367efaba1068</query>
+        <query>/esc?id=sc_home</query>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_2182380_pwcnow.director</roles>
+        <roles>x_2182380_pwcnow.employee</roles>
         <route/>
         <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-04 07:54:36</sys_created_on>
+        <sys_created_on>2026-09-07 08:56:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7242a83693c3c7146eea367efaba10a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>IT Dashboard</sys_name>
+        <sys_id>342d40f3930b07106eea367efaba100b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Item</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
         <sys_policy/>
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
-        <sys_update_name>sys_app_module_7242a83693c3c7146eea367efaba10a9</sys_update_name>
+        <sys_update_name>sys_app_module_342d40f3930b07106eea367efaba100b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-07 13:12:41</sys_updated_on>
+        <sys_updated_on>2026-09-07 08:56:17</sys_updated_on>
         <timeline_page/>
-        <title>IT Dashboard</title>
+        <title>Request Item</title>
         <uncancelable>false</uncancelable>
         <ux_list/>
         <view_name/>

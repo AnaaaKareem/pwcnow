@@ -15,15 +15,26 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Set Default Requested For</name>
+        <name>Autopopulate Variable</name>
         <order/>
         <published_ref/>
-        <script><![CDATA[function onLoad(){
-    // Only populate if empty to avoid overwriting existing values during review
-    var requestedFor = g_form.getValue('requested_for');
-    if (!requestedFor) {
-        g_form.setValue('requested_for', g_user.userID);
-    }
+        <script><![CDATA[function onLoad() {
+    // 1. Set 'Requested by' to the current user and make it strictly read-only
+    g_form.setValue('requested_by', g_user.userID);
+    g_form.setReadOnly('requested_by', true);
+
+    // 2. Set 'Requested for' to current user if empty, but leave it editable
+    g_form.setValue('requested_for', g_user.userID);
+    g_form.setReadOnly('requested_for', true);
+
+	// 3. Fetch the short description directly from the Catalog Item record
+    var catItem = new GlideRecord('sc_cat_item');
+    catItem.get(g_form.getUniqueValue(), function(target) {
+        if (target.short_description) {
+            g_form.setValue('short_description', target.short_description);
+        }
+        g_form.setReadOnly('short_description', true);
+    });
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -31,15 +42,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f549befb93b603d06eea367efaba1013</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Set Default Requested For</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Autopopulate Variable</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
         <sys_policy/>
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>catalog_script_client_f549befb93b603d06eea367efaba1013</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-26 11:13:04</sys_updated_on>
+        <sys_updated_on>2026-09-07 09:52:24</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
