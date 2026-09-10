@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.u_status == 'assigned' &amp;&amp; (current.u_employee == gs.getUserID() || gs.hasRole('x_2182380_pwcnow.hr_agent'))</condition>
+        <condition>current.u_status == 'assigned' &amp;&amp; (current.u_employee == gs.getUserID() || gs.hasRole('x_2182380_pwcnow.employee'))</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -47,7 +47,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a01cd4ef934b83106eea367efaba1045</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Start Training</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -55,7 +55,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_ui_action_a01cd4ef934b83106eea367efaba1045</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-06 15:23:09</sys_updated_on>
+        <sys_updated_on>2026-09-09 06:56:36</sys_updated_on>
         <table>x_2182380_pwcnow_employee_training</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

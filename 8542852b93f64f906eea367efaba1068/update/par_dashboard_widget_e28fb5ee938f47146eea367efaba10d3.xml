@@ -13,7 +13,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e28fb5ee938f47146eea367efaba10d3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -21,7 +21,7 @@
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>par_dashboard_widget_e28fb5ee938f47146eea367efaba10d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-07 13:00:12</sys_updated_on>
+        <sys_updated_on>2026-09-09 10:17:13</sys_updated_on>
         <visualization/>
         <w>25</w>
         <widget_props/>

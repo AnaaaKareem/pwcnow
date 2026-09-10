@@ -40,14 +40,21 @@
         g_form.setMandatory('u_reviewer_comments', true);
         return false;
     }
+    // Triggers the server execution below
     gsftSubmit(null, g_form.getFormElement(), 'return_document');
 }
 
 if (typeof window == 'undefined') {
+    runReturnServerCode();
+}
+
+function runReturnServerCode() {
     current.setValue('u_status', 'returned');
     current.setValue('u_reviewed_by', gs.getUserID());
     current.update();
-    action.setRedirectURL(current);
+
+    gs.addInfoMessage('Document has been returned for revision.');
+    action.setRedirectURL('x_2182380_pwcnow_employee_document_list.do');
 }]]></script>
         <show_form_icon_only>false</show_form_icon_only>
         <show_insert>false</show_insert>
@@ -61,7 +68,7 @@ if (typeof window == 'undefined') {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8111b5f7eceb448e8913d2495f5ac933</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Return Document</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -69,7 +76,7 @@ if (typeof window == 'undefined') {
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_ui_action_8111b5f7eceb448e8913d2495f5ac933</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-07 08:48:20</sys_updated_on>
+        <sys_updated_on>2026-09-09 12:05:48</sys_updated_on>
         <table>x_2182380_pwcnow_employee_document</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

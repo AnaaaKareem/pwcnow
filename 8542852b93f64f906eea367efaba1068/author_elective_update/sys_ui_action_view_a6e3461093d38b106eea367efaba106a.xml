@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 06:51:11</sys_created_on>
+        <sys_id>a6e3461093d38b106eea367efaba106a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept Document.HR Review</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_ui_action display_value="Accept Document">0f652ff75e304ca694d7b3719db4278d</sys_ui_action>
+        <sys_ui_view display_value="HR Review" name="hr_review">963f364e938783146eea367efaba1076</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_a6e3461093d38b106eea367efaba106a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 06:51:11</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_ui_action_view_a6e3461093d38b106eea367efaba106a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-09 06:51:11</sys_created_on><sys_id>a6e3461093d38b106eea367efaba106a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accept Document.HR Review</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_ui_action display_value="Accept Document">0f652ff75e304ca694d7b3719db4278d</sys_ui_action><sys_ui_view display_value="HR Review" name="hr_review">963f364e938783146eea367efaba1076</sys_ui_view><sys_update_name>sys_ui_action_view_a6e3461093d38b106eea367efaba106a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-09 06:51:11</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>1424694122</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>77aa9f4b934303106eea367efaba10db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 06:51:11</sys_created_on>
+        <sys_id>6ae3461093d38b106eea367efaba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a084ef52a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 06:51:11</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>2ae34610acd38b108153d3bbc6c69670</update_guid>
+        <update_guid_history>2ae34610acd38b108153d3bbc6c69670:1424694122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 10:26:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>031bdf2f1f8146d4a73d72af9ac51c10</sys_id>
+        <sys_metadata>a6e3461093d38b106eea367efaba106a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept Document.HR Review</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Accept Document">0f652ff75e304ca694d7b3719db4278d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_a6e3461093d38b106eea367efaba106a</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_a6e3461093d38b106eea367efaba106a">6ae3461093d38b106eea367efaba1071</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 10:26:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

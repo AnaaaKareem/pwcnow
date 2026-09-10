@@ -3,182 +3,126 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_training_name</element>
             <position>0</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>b01fd7c293cb83146eea367efaba1032</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>afbc821493178b106eea367efaba100d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>1</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>781fd7c293cb83146eea367efaba1033</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>e7bc821493178b106eea367efaba100f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_employee</element>
             <position>2</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>f41fd7c293cb83146eea367efaba1034</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>67bc821493178b106eea367efaba1010</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>3</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>741fd7c293cb83146eea367efaba1035</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>e3bc821493178b106eea367efaba1011</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>4</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>f01fd7c293cb83146eea367efaba1036</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_due_date</element>
-            <position>5</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>701fd7c293cb83146eea367efaba1037</sys_id>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>63bc821493178b106eea367efaba1012</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>fc1fd7c293cb83146eea367efaba1037</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_completion_date</element>
-            <position>7</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>7c1fd7c293cb83146eea367efaba1038</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>f81fd7c293cb83146eea367efaba1039</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>9</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>781fd7c293cb83146eea367efaba103a</sys_id>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>efbc821493178b106eea367efaba1012</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_status</element>
-            <position>10</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>f41fd7c293cb83146eea367efaba103b</sys_id>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>6fbc821493178b106eea367efaba1013</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>11</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>741fd7c293cb83146eea367efaba103c</sys_id>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>ebbc821493178b106eea367efaba1014</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_assigned_by</element>
-            <position>12</position>
-            <sys_created_by>fhashem</sys_created_by>
-            <sys_created_on>2026-09-02 13:43:08</sys_created_on>
-            <sys_id>f01fd7c293cb83146eea367efaba103d</sys_id>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 07:29:46</sys_created_on>
+            <sys_id>6bbc821493178b106eea367efaba1015</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Assign Training" display_value="Assign Training" name="x_2182380_pwcnow_employee_training" sys_domain="global" view="Default view">787550058390400aa9c5f61d87dd1b8d</sys_ui_section>
-            <sys_updated_by>fhashem</sys_updated_by>
-            <sys_updated_on>2026-09-02 13:43:08</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 07:29:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

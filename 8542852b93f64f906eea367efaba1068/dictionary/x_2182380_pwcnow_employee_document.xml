@@ -6,6 +6,7 @@
         <element label="Document Attachment" max_length="40" name="u_document_attachment" type="file_attachment"/>
         <element choice="3" default="requested" label="Status" max_length="255" name="u_status" read_only="true" read_only_option="display_read_only" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
                 <element inactive_on_update="false" label="Returned" sequence="2" value="returned"/>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
                 <element inactive_on_update="false" label="Accepted" sequence="1" value="accepted"/>
@@ -15,7 +16,7 @@
         <element label="Due Date" max_length="40" name="u_due_date" read_only="true" read_only_option="display_read_only" type="glide_date"/>
         <element active="false" label="Number" max_length="40" name="number" type="string"/>
         <element label="Employee" max_length="32" name="u_employee" read_only="true" read_only_option="display_read_only" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
-        <element choice="1" label="Document Type" max_length="40" name="u_document_type" read_only="true" read_only_option="display_read_only" type="choice">
+        <element choice="1" label="Document Type" max_length="40" name="u_document_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Tax Form" sequence="2" value="tax_form"/>
                 <element inactive_on_update="false" label="Degree Certificate" sequence="3" value="degree_certificate"/>

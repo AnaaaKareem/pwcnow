@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="HR Dashboard">c2397962938f47146eea367efaba1056</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_2182380_pwcnow.director" name="x_2182380_pwcnow.director">bc2e8a6793728f906eea367efaba10fc</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 18:59:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6e0a3cc931f0b106eea367efaba109a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2397962938f47146eea367efaba1056</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_permission_b6e0a3cc931f0b106eea367efaba109a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 18:59:03</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

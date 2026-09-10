@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-09-01 05:58:24</sys_created_on>
+        <sys_id>271be0f19343cfd06eea367efaba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.2182380.smartspace-workspace.*.x_2182380_smarts_0.employee</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_security_acl display_value="x.2182380.smartspace-workspace.*">ab1be0f19343cfd06eea367efaba1006</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_271be0f19343cfd06eea367efaba1033</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-01 05:58:24</sys_updated_on>
+        <sys_user_role display_value="x_2182380_smarts_0.employee" name="x_2182380_smarts_0.employee">4367b9c693e283106eea367efaba102a</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_security_acl_role_271be0f19343cfd06eea367efaba1033</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2026-09-01 05:58:24</sys_created_on><sys_id>271be0f19343cfd06eea367efaba1033</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x.2182380.smartspace-workspace.*.x_2182380_smarts_0.employee</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_security_acl display_value="x.2182380.smartspace-workspace.*">ab1be0f19343cfd06eea367efaba1006</sys_security_acl><sys_update_name>sys_security_acl_role_271be0f19343cfd06eea367efaba1033</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2026-09-01 05:58:24</sys_updated_on><sys_user_role display_value="x_2182380_smarts_0.employee" name="x_2182380_smarts_0.employee">4367b9c693e283106eea367efaba102a</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>367410710</payload_hash>
+        <record_name>x.2182380.smartspace-workspace.*.x_2182380_smarts_0.employee</record_name>
+        <reverted_from/>
+        <source>1542852b93f64f906eea367efaba107e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-09-01 05:58:25</sys_created_on>
+        <sys_id>af1be0f19343cfd06eea367efaba103a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a05b8c20960000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-01 05:58:25</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2f1be0f1e943cfd0d8d3e2b11861a739</update_guid>
+        <update_guid_history>2f1be0f1e943cfd0d8d3e2b11861a739:367410710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x.2182380.smartspace-workspace.*.x_2182380_smarts_0.employee">c4353a4c93970b106eea367efaba102f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-09-08 15:47:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8a5d47bc6f8049eab02a6c441aae71e4</sys_id>
+        <sys_metadata>271be0f19343cfd06eea367efaba1033</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.2182380.smartspace-workspace.*.x_2182380_smarts_0.employee</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_271be0f19343cfd06eea367efaba1033</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_271be0f19343cfd06eea367efaba1033">af1be0f19343cfd06eea367efaba103a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:47:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

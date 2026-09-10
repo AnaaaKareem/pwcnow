@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_2182380_pwcnow_employee_document">u_status=returned<item display_value="Returned" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="returned"/>
+        </conditions>
+        <description/>
+        <global>false</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide reviewer fields when document is returned</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 11:23:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8aa2ab29c845480a8964c81d5307de8a</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Hide reviewer fields when document is returned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_ui_policy_8aa2ab29c845480a8964c81d5307de8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 20:03:44</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_document</table>
+        <ui_type>0</ui_type>
+        <view display_value="" name="Employee_Document_Submission_Form">Employee_Document_Submission_Form</view>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_ui_policy_8aa2ab29c845480a8964c81d5307de8a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_2182380_pwcnow_employee_document"&gt;u_status=returned&lt;item display_value="Returned" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="returned"/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;false&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide reviewer fields when document is returned&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-02 11:23:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8aa2ab29c845480a8964c81d5307de8a&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide reviewer fields when document is returned&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="PwCNow" source="x_2182380_pwcnow"&gt;8542852b93f64f906eea367efaba1068&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PwCNow"&gt;8542852b93f64f906eea367efaba1068&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_8aa2ab29c845480a8964c81d5307de8a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-08 20:03:44&lt;/sys_updated_on&gt;&lt;table&gt;x_2182380_pwcnow_employee_document&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view display_value="" name="Employee_Document_Submission_Form"&gt;Employee_Document_Submission_Form&lt;/view&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-772022429</payload_hash>
+        <record_name>Hide reviewer fields when document is returned</record_name>
+        <reverted_from/>
+        <source>77aa9f4b934303106eea367efaba10db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 20:03:44</sys_created_on>
+        <sys_id>56bf6b0093df0b106eea367efaba10d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0829e8e950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 20:03:44</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>16bf6b0000df0b105bcc2e04dab26bd6</update_guid>
+        <update_guid_history>16bf6b0000df0b105bcc2e04dab26bd6:-772022429,8cdbabc42f9f0b10e690f95e7a8c976d:-245745230,bb9be3c4709f0b1089faebd166bd9e3e:919022656,f28b2f84679f0b1084bab2774f530a91:643128928,358f3a84791b0b10d0274e4a3dcd5b7a:1060499361,c98eb204a41b0b1034dc638ae8372d3f:-2139298314,e47d3a40cd1b0b10c865f48a5592c78e:1060499361,51ecfaccf6d70b104d3cca2771ea3a19:-2139298314,8519718c459fc710e87f1b49d0f942d0:1060499361,5339b00cb297c710d7722cbf4fd79ba6:1061159154,fdc89ebfc6838710376d8a10d41c871f:-1658713451,027892bf49838710e13426986b3c585d:-2128728260,f3d7de3f668387103ae0d04074fa3876:-2055152053,1bc7da3ff6838710546d56249b9adcbc:1141037031,16f2defb614387102c6bf708c95099f7:-2032008721,0fb2d6fb3f438710a150ad101f30427e:-1901842841,7e0b08bf97c707109ef587baaeb2174c:-1336197272,1e3f364e2187831455c9bac239b050d7:-627505341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:30:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>2660bb9ef2164e90916b85ec72cad441</sys_id>
+        <sys_metadata>8aa2ab29c845480a8964c81d5307de8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide reviewer fields when document is returned</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Employee Document">eed8026b93328f906eea367efaba1008</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_8aa2ab29c845480a8964c81d5307de8a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_8aa2ab29c845480a8964c81d5307de8a">56bf6b0093df0b106eea367efaba10d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:30:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

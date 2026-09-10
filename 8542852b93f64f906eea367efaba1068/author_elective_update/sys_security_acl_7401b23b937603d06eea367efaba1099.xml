@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allows IT agents to view assigned catalog fulfillment tasks.</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>sc_task</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>sattia</sys_created_by>
+        <sys_created_on>2026-08-26 10:38:22</sys_created_on>
+        <sys_id>7401b23b937603d06eea367efaba1099</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc_task</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_security_acl_7401b23b937603d06eea367efaba1099</sys_update_name>
+        <sys_updated_by>sattia</sys_updated_by>
+        <sys_updated_on>2026-08-26 10:38:22</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_security_acl_7401b23b937603d06eea367efaba1099</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allows IT agents to view assigned catalog fulfillment tasks.</description><local_or_existing>Existing</local_or_existing><name>sc_task</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>sattia</sys_created_by><sys_created_on>2026-08-26 10:38:22</sys_created_on><sys_id>7401b23b937603d06eea367efaba1099</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sc_task</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sys_security_acl_7401b23b937603d06eea367efaba1099</sys_update_name><sys_updated_by>sattia</sys_updated_by><sys_updated_on>2026-08-26 10:38:22</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-842041224</payload_hash>
+        <record_name>sc_task</record_name>
+        <reverted_from/>
+        <source>1542852b93f64f906eea367efaba107e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sattia</sys_created_by>
+        <sys_created_on>2026-08-26 10:38:22</sys_created_on>
+        <sys_id>8ea1f6bb937603d06eea367efaba10a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a03da6472e0000001</sys_recorded_at>
+        <sys_updated_by>sattia</sys_updated_by>
+        <sys_updated_on>2026-08-26 10:38:22</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>4ea1f6bb2c7603d0481eee383c5a63a3</update_guid>
+        <update_guid_history>4ea1f6bb2c7603d0481eee383c5a63a3:-842041224</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 18:16:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>7a8e6fab355547d7a56ade9a8abb8669</sys_id>
+        <sys_metadata>7401b23b937603d06eea367efaba1099</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc_task</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="sc_task">a7f4f2bb8c5503100a22deb6dd2b4e77</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_security_acl_7401b23b937603d06eea367efaba1099</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_7401b23b937603d06eea367efaba1099">8ea1f6bb937603d06eea367efaba10a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 18:16:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
