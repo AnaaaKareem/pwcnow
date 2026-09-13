@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="43d3e0f1931b47506eea367efaba10f4" sys_domain="global" table="x_2182380_pwcnow_employee_document" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-13 15:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fd3e0f1931b47506eea367efaba10f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2182380_pwcnow_employee_document" name="x_2182380_pwcnow_employee_document" sys_domain="global" view="51097d4c939fc7106eea367efaba10f3">43d3e0f1931b47506eea367efaba10f4</sys_ui_form>
+            <sys_ui_section caption="Employee Document Sub" display_value="Employee Document Sub" name="x_2182380_pwcnow_employee_document" sys_domain="global" view="51097d4c939fc7106eea367efaba10f3">83d3e0f1931b47506eea367efaba10a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-13 15:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2182380_pwcnow_employee_document</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-13 15:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43d3e0f1931b47506eea367efaba10f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2182380_pwcnow_employee_document</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+            <sys_update_name>sys_ui_form_sections_43d3e0f1931b47506eea367efaba10f4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-13 15:42:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Employee Document Submission Form" name="Employee_Document_Submission_Form">51097d4c939fc7106eea367efaba10f3</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -13,9 +13,9 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
             </choice>
         </element>
-        <element label="Due Date" max_length="40" name="u_due_date" read_only="true" read_only_option="display_read_only" type="glide_date"/>
+        <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
         <element active="false" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Employee" max_length="32" name="u_employee" read_only="true" read_only_option="display_read_only" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element label="Employee" max_length="32" name="u_employee" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
         <element choice="1" label="Document Type" max_length="40" name="u_document_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Tax Form" sequence="2" value="tax_form"/>
