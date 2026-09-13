@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_2182380_pwcnow.UserReferenceFilter</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UserReferenceFilter</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var UserReferenceFilter = Class.create();
+UserReferenceFilter.prototype = {
+    initialize: function() {},
+
+    byGroupOrRole: function() {
+        var groupId = '055c6bd89313cb106eea367efaba10a9';
+        var roleId  = '22fc42e393728f906eea367efaba1066';
+        var userMap = {};
+
+        // Query Group Members
+        var grMember = new GlideRecord('sys_user_grmember');
+        grMember.addQuery('group', groupId);
+        grMember.query();
+        while (grMember.next()) {
+            userMap[grMember.getValue('user')] = true;
+        }
+
+        // Query Role Holders
+        var grRole = new GlideRecord('sys_user_has_role');
+        grRole.addQuery('role', roleId);
+        grRole.addQuery('state', 'active');
+        grRole.query();
+        while (grRole.next()) {
+            userMap[grRole.getValue('user')] = true;
+        }
+
+        var uniqueUsers = Object.keys(userMap);
+        return uniqueUsers.length > 0 ? 'sys_idIN' + uniqueUsers.join(',') : 'sys_idINNULL';
+    },
+
+    type: 'UserReferenceFilter'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 06:20:22</sys_created_on>
+        <sys_id>df79dd51935f43506eea367efaba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserReferenceFilter</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_script_include_df79dd51935f43506eea367efaba10c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 06:20:22</sys_updated_on>
+    </sys_script_include>
+</record_update>

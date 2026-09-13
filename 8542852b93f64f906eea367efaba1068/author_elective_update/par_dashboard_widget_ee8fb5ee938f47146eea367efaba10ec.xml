@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">385e3d2e938f47146eea367efaba108b</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"ho78gir0","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitleAlignment":"start","headerTitle":"Active IT Request Queue","showBorder":true,"showExportOption":true,"bareBorder":false,"showAdditionalGroupBySelector":false,"table":"sc_task","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Catalog Task","sourceType":"table","tableOrViewName":"sc_task","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVzY190YXNrMTc4ODk0ODk5MTQzOA==","dataCategories":["trend","group","simple"]}],"columns":"number,state,assigned_to","groupByField":""}</component_props>
+        <h>19</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"},{"comment":"","message":"Active IT Request Queue","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"},{"comment":"","message":"Catalog Task","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 20:02:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee8fb5ee938f47146eea367efaba10ec</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_widget_ee8fb5ee938f47146eea367efaba10ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 08:29:53</sys_updated_on>
+        <visualization/>
+        <w>22</w>
+        <widget_props/>
+        <x>26</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>par_dashboard_widget_ee8fb5ee938f47146eea367efaba10ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">385e3d2e938f47146eea367efaba108b</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"ho78gir0","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitleAlignment":"start","headerTitle":"Active IT Request Queue","showBorder":true,"showExportOption":true,"bareBorder":false,"showAdditionalGroupBySelector":false,"table":"sc_task","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Catalog Task","sourceType":"table","tableOrViewName":"sc_task","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVzY190YXNrMTc4ODk0ODk5MTQzOA==","dataCategories":["trend","group","simple"]}],"columns":"number,state,assigned_to","groupByField":""}</component_props><h>19</h><name/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"},{"comment":"","message":"Active IT Request Queue","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"},{"comment":"","message":"Catalog Task","code":"PAR_DASHBOARD.385e3d2e938f47146eea367efaba108b.ee8fb5ee938f47146eea367efaba10ec"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-03 20:02:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ee8fb5ee938f47146eea367efaba10ec</sys_id><sys_mod_count>7</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>par_dashboard_widget_ee8fb5ee938f47146eea367efaba10ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-12 08:29:53</sys_updated_on><visualization/><w>22</w><widget_props/><x>26</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-2063976797</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>77aa9f4b934303106eea367efaba10db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 08:29:53</sys_created_on>
+        <sys_id>2d473d51939383506eea367efaba10a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a094bcc2890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 08:29:53</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>69473d512f9383506fec97e7502bc7a8</update_guid>
+        <update_guid_history>69473d512f9383506fec97e7502bc7a8:-2063976797,7966fddd875383508e628a15c7991113:-278868357,fa366d9d5adf43501570b9e44b83b272:-1680136126,f0e42dd914df43503829188fe6a975f2:956396200,b1f27654ae5b8b1034d2f89cff020b99:763438459,e835c17f68cf07102a589e06e7397246:-1217225939,835d54ba1983c714475dc3c50900e3d4:-1965252452,3e8fb5ee968f4714e046f68c3cc4a8ef:1628814540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2168b115939383506eea367efaba10e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 08:34:48</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>a8c24f2582654d40bef954e206bac840</sys_id>
+        <sys_metadata>ee8fb5ee938f47146eea367efaba10ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ee8fb5ee938f47146eea367efaba10ec</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ee8fb5ee938f47146eea367efaba10ec">2d473d51939383506eea367efaba10a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 08:34:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

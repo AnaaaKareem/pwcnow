@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.u_status == 'requested' || current.u_status == 'returned') &amp;&amp; gs.hasRole('x_2182380_pwcnow.hr_agent')  &amp;&amp; gs.hasRole('x_2182380_pwcnow.hr_agent')</condition>
+        <condition>(current.u_status == 'requested' || current.u_status == 'returned') &amp;&amp; gs.hasRole('x_2182380_pwcnow.hr_agent')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -50,7 +50,7 @@ action.setRedirectURL('x_2182380_pwcnow_employee_document_list.do');]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0f652ff75e304ca694d7b3719db4278d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Accept Document</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -58,7 +58,7 @@ action.setRedirectURL('x_2182380_pwcnow_employee_document_list.do');]]></script>
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_ui_action_0f652ff75e304ca694d7b3719db4278d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-09 12:04:40</sys_updated_on>
+        <sys_updated_on>2026-09-12 14:09:02</sys_updated_on>
         <table>x_2182380_pwcnow_employee_document</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

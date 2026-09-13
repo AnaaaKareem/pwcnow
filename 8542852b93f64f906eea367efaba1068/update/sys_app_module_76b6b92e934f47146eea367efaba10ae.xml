@@ -13,7 +13,7 @@
         <mobile_title>IT Agents</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>800</order>
+        <order>1000</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76b6b92e934f47146eea367efaba10ae</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>IT Agents</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_app_module_76b6b92e934f47146eea367efaba10ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-03 19:27:57</sys_updated_on>
+        <sys_updated_on>2026-09-12 18:52:30</sys_updated_on>
         <timeline_page/>
         <title>IT Agents</title>
         <uncancelable>false</uncancelable>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="PwCNow">7920eb4693cb83146eea367efaba1091</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>IT Cockpit</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/tab-sys-id/6302c82d93d3c3506eea367efaba1036/sys-id/db0288e993d3c3506eea367efaba1021/__state__/b64~eyI5MjNhOTEzYjUzMmMwMTEwYWFiOWRkZWVmZjdiMTI0MyI6eyJsaXN0X2NvbnRyb2xsZXJfMyI6eyJfIjp7InF1ZXJ5IjoidV9zdGF0dXM9cmVxdWVzdGVkXk9SdV9zdGF0dXM9cmV0dXJuZWQifX19fQ%3D%3D</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2182380_pwcnow.it_agent</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 18:53:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbd5c4659317c3506eea367efaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Cockpit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_app_module_fbd5c4659317c3506eea367efaba10b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 18:53:58</sys_updated_on>
+        <timeline_page/>
+        <title>IT Cockpit</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name>IT Cockpit</window_name>
+    </sys_app_module>
+</record_update>

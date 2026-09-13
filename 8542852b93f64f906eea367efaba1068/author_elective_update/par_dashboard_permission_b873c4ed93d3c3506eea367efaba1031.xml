@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="IT Cockpit">db0288e993d3c3506eea367efaba1021</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 18:42:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b873c4ed93d3c3506eea367efaba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>db0288e993d3c3506eea367efaba1021</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_permission_b873c4ed93d3c3506eea367efaba1031</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 18:42:20</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>par_dashboard_permission_b873c4ed93d3c3506eea367efaba1031</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>true</can_write><dashboard display_value="IT Cockpit">db0288e993d3c3506eea367efaba1021</dashboard><group/><owner>false</owner><role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</role><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 18:42:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b873c4ed93d3c3506eea367efaba1031</sys_id><sys_mod_count>0</sys_mod_count><sys_name>db0288e993d3c3506eea367efaba1021</sys_name><sys_overrides/><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>par_dashboard_permission_b873c4ed93d3c3506eea367efaba1031</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-12 18:42:20</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>612206693</payload_hash>
+        <record_name>db0288e993d3c3506eea367efaba1021</record_name>
+        <reverted_from/>
+        <source>77aa9f4b934303106eea367efaba10db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 18:42:20</sys_created_on>
+        <sys_id>cd73c4ed93d3c3506eea367efaba1035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a096ed77f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 18:42:20</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>8d73c4ed13d3c350e5f9ea66860b3634</update_guid>
+        <update_guid_history>8d73c4ed13d3c350e5f9ea66860b3634:612206693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IT Cockpit">59164c659317c3506eea367efaba109e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 18:53:49</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>06cadbe9558043f5b09cb53c89450a99</sys_id>
+        <sys_metadata>b873c4ed93d3c3506eea367efaba1031</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>db0288e993d3c3506eea367efaba1021</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_b873c4ed93d3c3506eea367efaba1031</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_b873c4ed93d3c3506eea367efaba1031">cd73c4ed93d3c3506eea367efaba1035</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 18:53:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

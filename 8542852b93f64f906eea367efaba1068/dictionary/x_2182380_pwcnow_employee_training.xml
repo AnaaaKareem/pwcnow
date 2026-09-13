@@ -3,7 +3,7 @@
         <element active="false" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Training ID" max_length="45" name="u_training_id" type="string"/>
         <element label="Training Name" max_length="40" name="u_training_name" type="string"/>
-        <element label="Employee" max_length="32" name="u_employee" reference="sys_user" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element label="Employee" max_length="32" name="u_employee" reference="sys_user" reference_qual="javascript:new x_2182380_pwcnow.UserReferenceFilter().byGroupOrRole();" type="reference" use_reference_qualifier="advanced"/>
         <element default="javascript:gs.getUserID();" label="Assigned By" max_length="32" name="u_assigned_by" read_only="true" read_only_option="display_read_only" reference="sys_user" type="reference"/>
         <element default="assigned" label="Status" max_length="40" name="u_status" type="choice">
             <choice>
