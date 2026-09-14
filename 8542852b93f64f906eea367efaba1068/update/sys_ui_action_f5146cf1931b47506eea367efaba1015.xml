@@ -32,7 +32,8 @@
         <name>Request</name>
         <onclick>requestHRDocument()</onclick>
         <order>100</order>
-        <script><![CDATA[function requestHRDocument() {
+        <script><![CDATA[// Client-side script
+function requestHRDocument() {
     // 1. Client-side validation: Ensure Document Type is selected
     var docType = g_form.getValue('u_document_type');
     if (!docType || docType === '') {
@@ -41,33 +42,40 @@
         return false;
     }
 
-    // 2. Trigger server execution (Must match the Action name on the UI Action record)
+    // 2. Trigger server execution
     gsftSubmit(null, g_form.getFormElement(), 'request_hr_document');
 }
 
-// Server-side execution block
+// Server-side script execution
 if (typeof window == 'undefined') {
     createRecordAndRedirect();
 }
 
 function createRecordAndRedirect() {
-    // Capture the target employee's sys_id from the current HR form
     var targetEmployee = current.getValue('u_employee'); 
+    var docType = current.getValue('u_document_type');
 
-    // Create new record in Employee Document table
+    // Create new record in Employee Document table (x_2182380_pwcnow_employee_document)
     var grDoc = new GlideRecord('x_2182380_pwcnow_employee_document');
     grDoc.initialize();
-    grDoc.setValue('u_employee', targetEmployee); // Assigns ownership to the employee
-    grDoc.setValue('u_document_type', current.getValue('u_document_type'));
+    grDoc.setValue('u_employee', targetEmployee); 
+    grDoc.setValue('u_document_type', docType);
     grDoc.setValue('u_status', 'requested');
     
-    // Insert record into database and get sys_id
     var newSysId = grDoc.insert();
 
     if (newSysId) {
+        // Explicitly fire event for "Document Required Alert"
+        gs.eventQueue(
+            'x_2182380_pwcnow.document_required_alert', 
+            grDoc, 
+            targetEmployee, 
+            docType
+        );
+
         gs.addInfoMessage('Document request created successfully for the employee.');
 
-        // Redirects to Employee Document list filtered for the assigned employee
+        // Redirect to Employee Document list filtered by employee
         action.setRedirectURL('x_2182380_pwcnow_employee_document_list.do?sysparm_query=u_employee=' + targetEmployee);
     }
 }]]></script>
@@ -83,7 +91,7 @@ function createRecordAndRedirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5146cf1931b47506eea367efaba1015</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -91,7 +99,7 @@ function createRecordAndRedirect() {
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_ui_action_f5146cf1931b47506eea367efaba1015</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-13 17:17:54</sys_updated_on>
+        <sys_updated_on>2026-09-14 04:33:42</sys_updated_on>
         <table>x_2182380_pwcnow_employee_document</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

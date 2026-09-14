@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 19:29:36</sys_created_on>
+        <sys_id>594ecce59357c3506eea367efaba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Document.Default</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_ui_action display_value="Submit Document">645990e7934783106eea367efaba1008</sys_ui_action>
+        <sys_ui_view display_value="Default" name="default">66507e778c1103100a22deb6dd2b4e71</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_594ecce59357c3506eea367efaba1043</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 19:29:36</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>fd8e7a0093ac4314611eddd548373cf7</instance_id>
+        <instance_name>dev390378</instance_name>
+        <name>sys_ui_action_view_594ecce59357c3506eea367efaba1043</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 19:29:36</sys_created_on><sys_id>594ecce59357c3506eea367efaba1043</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit Document.Default</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_ui_action display_value="Submit Document">645990e7934783106eea367efaba1008</sys_ui_action><sys_ui_view display_value="Default" name="default">66507e778c1103100a22deb6dd2b4e71</sys_ui_view><sys_update_name>sys_ui_action_view_594ecce59357c3506eea367efaba1043</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-12 19:29:36</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>-1321404345</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>77aa9f4b934303106eea367efaba10db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 19:29:36</sys_created_on>
+        <sys_id>514ecce59357c3506eea367efaba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09718bdc00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 19:29:36</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>114ecce5e157c3500abd88d9d4be8548</update_guid>
+        <update_guid_history>114ecce5e157c3500abd88d9d4be8548:-1321404345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 04:38:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>0a0ce66d4dea45fe830ecd4e4c588621</sys_id>
+        <sys_metadata>594ecce59357c3506eea367efaba1043</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Document.Default</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Submit Document">645990e7934783106eea367efaba1008</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_594ecce59357c3506eea367efaba1043</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_594ecce59357c3506eea367efaba1043">514ecce59357c3506eea367efaba1049</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 04:38:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
