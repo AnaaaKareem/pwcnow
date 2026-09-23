@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="IT Dashboard (Fulfillment &amp; Operations)">305e3d2e938f47146eea367efaba1068</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_2182380_pwcnow.director" name="x_2182380_pwcnow.director">bc2e8a6793728f906eea367efaba10fc</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 18:59:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab112bcc931f0b106eea367efaba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>305e3d2e938f47146eea367efaba1068</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_permission_ab112bcc931f0b106eea367efaba1020</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 18:59:55</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>par_dashboard_permission_ab112bcc931f0b106eea367efaba1020</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="IT Dashboard (Fulfillment &amp; Operations)">305e3d2e938f47146eea367efaba1068</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_2182380_pwcnow.director" name="x_2182380_pwcnow.director">bc2e8a6793728f906eea367efaba10fc</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 18:59:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab112bcc931f0b106eea367efaba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>305e3d2e938f47146eea367efaba1068</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_permission_ab112bcc931f0b106eea367efaba1020</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 18:59:55</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>]]></payload>
+        <payload_hash>527359537</payload_hash>
+        <record_name>305e3d2e938f47146eea367efaba1068</record_name>
+        <reverted_from/>
+        <source>88ec580e73130310da9af85f4ab8b701</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:50:31</sys_created_on>
+        <sys_id>d6ec9c0e73130310da9af85f4ab8b771</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f534c5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:50:31</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>96ec9c0e8413031032b3e47b647d6671</update_guid>
+        <update_guid_history>96ec9c0e8413031032b3e47b647d6671:527359537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">da7b17ff73d7cf10da9af85f4ab8b7c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-20 10:12:28</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>11ebf84f7b0b43238fb50cbf98998ae9</sys_id>
+        <sys_metadata>ab112bcc931f0b106eea367efaba1020</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>305e3d2e938f47146eea367efaba1068</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_ab112bcc931f0b106eea367efaba1020</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_ab112bcc931f0b106eea367efaba1020">d6ec9c0e73130310da9af85f4ab8b771</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-20 10:12:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

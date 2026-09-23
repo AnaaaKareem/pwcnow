@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Document Attachment Read-Only HR</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_user.hasRole('x_2182380_pwcnow.hr_agent')) {
+        g_form.setReadOnly('u_document_attachment', true);
+    } else {
+        g_form.setReadOnly('u_document_attachment', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-15 08:39:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b026111a731b8310da9af85f4ab8b74b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Document Attachment Read-Only HR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_script_client_b026111a731b8310da9af85f4ab8b74b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-15 09:36:33</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_document</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

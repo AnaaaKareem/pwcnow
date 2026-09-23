@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Check HR Document Form</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var action = g_form.getActionName();
+
+    // Required on every submission from this view
+    if (g_form.getValue('u_employee') == '') {
+        alert('Please select an Employee.');
+        return false;
+    }
+    if (g_form.getValue('u_due_date') == '') {
+        alert('Please select a Due Date.');
+        return false;
+    }
+    if (g_form.getValue('u_document_type') == '') {
+        alert('Please select a Document Type.');
+        return false;
+    }
+    if (g_form.getValue('u_status') == '') {
+        alert('Please select a Status.');
+        return false;
+    }
+
+    // Extra rule: Reject / Return require Reviewer Comments
+    var rejectReturnActions = ['reject_document', 'return_document']; // confirm these against the "Action name" field on those UI Actions
+    if (rejectReturnActions.indexOf(action) !== -1) {
+        if (g_form.getValue('u_reviewer_comments') == '') {
+            alert('Please provide Reviewer Comments before rejecting or returning this document.');
+            return false;
+        }
+    }
+
+    return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-23 12:42:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f4a5bf473a7c750da9af85f4ab8b78e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Check HR Document Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_script_client_9f4a5bf473a7c750da9af85f4ab8b78e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 12:44:26</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_document</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view>hr_doc_request</view>
+    </sys_script_client>
+</record_update>

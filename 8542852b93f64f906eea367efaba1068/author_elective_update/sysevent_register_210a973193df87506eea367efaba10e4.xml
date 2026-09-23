@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Fired when a new training record is assigned to an employee.</description>
+        <event_name>x_2182380_pwcnow.employee_training_assig</event_name>
+        <fired_by>Business Rule</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>employee_training_assignment</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 05:02:10</sys_created_on>
+        <sys_id>210a973193df87506eea367efaba10e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.employee_training_assig</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sysevent_register_210a973193df87506eea367efaba10e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 05:02:10</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_training</table>
+    </sysevent_register>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sysevent_register_210a973193df87506eea367efaba10e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Fired when a new training record is assigned to an employee.</description>
+        <event_name>x_2182380_pwcnow.employee_training_assig</event_name>
+        <fired_by>Business Rule</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>employee_training_assignment</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 05:02:10</sys_created_on>
+        <sys_id>210a973193df87506eea367efaba10e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.employee_training_assig</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sysevent_register_210a973193df87506eea367efaba10e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 05:02:10</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_training</table>
+    </sysevent_register>
+</record_update>]]></payload>
+        <payload_hash>-573537130</payload_hash>
+        <record_name>x_2182380_pwcnow.employee_training_assig</record_name>
+        <reverted_from/>
+        <source>88ec580e73130310da9af85f4ab8b701</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:50:48</sys_created_on>
+        <sys_id>e6fc584e73130310da9af85f4ab8b7d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f538cc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:50:48</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>a6fc584edf13031051c4f7b867ec18d7</update_guid>
+        <update_guid_history>a6fc584edf13031051c4f7b867ec18d7:-573537130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 11:27:10</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>10ed6c0102764d38a845df25a43f1710</sys_id>
+        <sys_metadata>210a973193df87506eea367efaba10e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.employee_training_assig</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Employee Training">c5f8466b93328f906eea367efaba1080</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sysevent_register_210a973193df87506eea367efaba10e4</sys_update_name>
+        <sys_update_version display_value="sysevent_register_210a973193df87506eea367efaba10e4">e6fc584e73130310da9af85f4ab8b7d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 11:27:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

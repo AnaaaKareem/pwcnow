@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.u_status == 'requested' || current.u_status == 'returned' )&amp;&amp; gs.hasRole('x_2182380_pwcnow.hr_agent')</condition>
+        <condition>current.u_status != 'accepted' &amp;&amp; current.u_status != 'rejected' &amp;&amp; !current.u_document_attachment.nil() &amp;&amp; gs.hasRole('x_2182380_pwcnow.hr_agent')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -32,8 +32,7 @@
         <name>Return Document</name>
         <onclick>returnDocument()</onclick>
         <order>100</order>
-        <script><![CDATA[// Client-side script
-function returnDocument() {
+        <script><![CDATA[function returnDocument() {
     var comments = g_form.getValue('u_reviewer_comments');
     if (!comments || comments.trim() === '') {
         g_form.hideFieldMsg('u_reviewer_comments');
@@ -41,12 +40,9 @@ function returnDocument() {
         g_form.setMandatory('u_reviewer_comments', true);
         return false;
     }
-    
-    // Triggers the server execution below
     gsftSubmit(null, g_form.getFormElement(), 'return_document');
 }
 
-// Server-side script execution
 if (typeof window == 'undefined') {
     runReturnServerCode();
 }
@@ -56,7 +52,6 @@ function runReturnServerCode() {
     current.setValue('u_reviewed_by', gs.getUserID());
     current.update();
 
-    // Explicitly fire the event so "Document Returned Notice" sends reliably
     gs.eventQueue(
         'x_2182380_pwcnow.document_returned_notice',
         current,
@@ -65,7 +60,7 @@ function runReturnServerCode() {
     );
 
     gs.addInfoMessage('Document has been returned for revision.');
-    action.setRedirectURL('x_2182380_pwcnow_employee_document_list.do');
+    action.setRedirectURL('x_2182380_pwcnow_employee_document_list.do?sysparm_view=hr_doc_request');
 }]]></script>
         <show_form_icon_only>false</show_form_icon_only>
         <show_insert>false</show_insert>
@@ -79,7 +74,7 @@ function runReturnServerCode() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8111b5f7eceb448e8913d2495f5ac933</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Return Document</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -87,7 +82,7 @@ function runReturnServerCode() {
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_ui_action_8111b5f7eceb448e8913d2495f5ac933</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-14 04:33:34</sys_updated_on>
+        <sys_updated_on>2026-09-16 07:18:49</sys_updated_on>
         <table>x_2182380_pwcnow_employee_document</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 06:53:44</sys_created_on>
+        <sys_id>c8848a5093d38b106eea367efaba10e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mark as Completed.Employee Training Dashboard</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_ui_action display_value="Mark as Completed">546c5423938b83106eea367efaba10ad</sys_ui_action>
+        <sys_ui_view display_value="Employee Training Dashboard" name="Employee_Training_Dashboard">05a2fde2934f47146eea367efaba10a8</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_c8848a5093d38b106eea367efaba10e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 06:53:44</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_ui_action_view_c8848a5093d38b106eea367efaba10e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 06:53:44</sys_created_on>
+        <sys_id>c8848a5093d38b106eea367efaba10e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mark as Completed.Employee Training Dashboard</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_ui_action display_value="Mark as Completed">546c5423938b83106eea367efaba10ad</sys_ui_action>
+        <sys_ui_view display_value="Employee Training Dashboard" name="Employee_Training_Dashboard">05a2fde2934f47146eea367efaba10a8</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_c8848a5093d38b106eea367efaba10e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 06:53:44</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>]]></payload>
+        <payload_hash>-596935163</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>88ec580e73130310da9af85f4ab8b701</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:50:41</sys_created_on>
+        <sys_id>b4fc944e73130310da9af85f4ab8b77d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f5371e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:50:41</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>74fc944eb4130310e6b0ca4f37ff0f7d</update_guid>
+        <update_guid_history>74fc944eb4130310e6b0ca4f37ff0f7d:-596935163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-15 11:20:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>5ede2ce043b944b0b96c95d61e7e0100</sys_id>
+        <sys_metadata>c8848a5093d38b106eea367efaba10e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mark as Completed.Employee Training Dashboard</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Mark as Completed">546c5423938b83106eea367efaba10ad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_c8848a5093d38b106eea367efaba10e6</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_c8848a5093d38b106eea367efaba10e6">b4fc944e73130310da9af85f4ab8b77d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-15 11:20:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 06:55:36</sys_created_on>
+        <sys_id>13e48a9093d38b106eea367efaba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Document.Employee Document Submission Form</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_ui_action display_value="Submit Document">645990e7934783106eea367efaba1008</sys_ui_action>
+        <sys_ui_view display_value="Employee Document Submission Form" name="Employee_Document_Submission_Form">51097d4c939fc7106eea367efaba10f3</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_13e48a9093d38b106eea367efaba10c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 06:55:36</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_ui_action_view_13e48a9093d38b106eea367efaba10c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 06:55:36</sys_created_on>
+        <sys_id>13e48a9093d38b106eea367efaba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Document.Employee Document Submission Form</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_ui_action display_value="Submit Document">645990e7934783106eea367efaba1008</sys_ui_action>
+        <sys_ui_view display_value="Employee Document Submission Form" name="Employee_Document_Submission_Form">51097d4c939fc7106eea367efaba10f3</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_13e48a9093d38b106eea367efaba10c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 06:55:36</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>]]></payload>
+        <payload_hash>783791744</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>88ec580e73130310da9af85f4ab8b701</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:50:41</sys_created_on>
+        <sys_id>78fc944e73130310da9af85f4ab8b766</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f53718b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:50:41</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>38fc944eff130310442b1f7156bffc66</update_guid>
+        <update_guid_history>38fc944eff130310442b1f7156bffc66:783791744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-15 10:55:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>e1a3c7121f0e493c97aebe157f3c6110</sys_id>
+        <sys_metadata>13e48a9093d38b106eea367efaba10c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Document.Employee Document Submission Form</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Submit Document">645990e7934783106eea367efaba1008</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_13e48a9093d38b106eea367efaba10c2</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_13e48a9093d38b106eea367efaba10c2">78fc944e73130310da9af85f4ab8b766</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-15 10:55:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

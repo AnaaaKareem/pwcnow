@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">1e39fd62938f47146eea367efaba105c</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1k1kdso9n88gidc5q5po","filterName":"Filter by Employee","filterCustomId":"","filterComponentType":"singleselect","defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"da39fd62938f47146eea367efaba104a","isDashboard":true,"isGroup":false,"value":[],"datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_employee","table":"x_2182380_pwcnow_employee_document","primaryKey":"sys_id"}},{"type":"table","payload":{"isInHierarchy":true,"field":"u_employee","starting_at":"","table":"x_2182380_pwcnow_employee_training","operator":{"hierarchy_id":"","starting_at":"","type":"hierarchy"},"primaryKey":"sys_id"}}]}</component_props>
+        <h>4</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Filter by Employee","code":"PAR_DASHBOARD.1e39fd62938f47146eea367efaba105c.95bf7dee938f47146eea367efaba10fd"},{"comment":"","message":"Apply","code":"PAR_DASHBOARD.1e39fd62938f47146eea367efaba105c.95bf7dee938f47146eea367efaba10fd"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 20:03:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95bf7dee938f47146eea367efaba10fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_widget_95bf7dee938f47146eea367efaba10fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 07:18:16</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>par_dashboard_widget_95bf7dee938f47146eea367efaba10fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">1e39fd62938f47146eea367efaba105c</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1k1kdso9n88gidc5q5po","filterName":"Filter by Employee","filterCustomId":"","filterComponentType":"singleselect","defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"da39fd62938f47146eea367efaba104a","isDashboard":true,"isGroup":false,"value":[],"datasource":{"type":"table","payload":{"table":"sys_user","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"u_employee","table":"x_2182380_pwcnow_employee_document","primaryKey":"sys_id"}},{"type":"table","payload":{"isInHierarchy":true,"field":"u_employee","starting_at":"","table":"x_2182380_pwcnow_employee_training","operator":{"hierarchy_id":"","starting_at":"","type":"hierarchy"},"primaryKey":"sys_id"}}]}</component_props>
+        <h>4</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Filter by Employee","code":"PAR_DASHBOARD.1e39fd62938f47146eea367efaba105c.95bf7dee938f47146eea367efaba10fd"},{"comment":"","message":"Apply","code":"PAR_DASHBOARD.1e39fd62938f47146eea367efaba105c.95bf7dee938f47146eea367efaba10fd"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 20:03:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95bf7dee938f47146eea367efaba10fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_widget_95bf7dee938f47146eea367efaba10fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 07:18:16</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>]]></payload>
+        <payload_hash>-358410872</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>88ec580e73130310da9af85f4ab8b701</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:50:32</sys_created_on>
+        <sys_id>f6ecdc0e73130310da9af85f4ab8b7e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f5350fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:50:32</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>b6ecdc0e6713031071565dc869f7a8e7</update_guid>
+        <update_guid_history>b6ecdc0e6713031071565dc869f7a8e7:-358410872</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">673ff5c6735f0310da9af85f4ab8b776</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 17:00:08</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>78275efa1a694c01b07a651f202f0e29</sys_id>
+        <sys_metadata>95bf7dee938f47146eea367efaba10fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_95bf7dee938f47146eea367efaba10fd</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_95bf7dee938f47146eea367efaba10fd">f6ecdc0e73130310da9af85f4ab8b7e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 17:00:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

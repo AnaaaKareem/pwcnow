@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_document_type</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 14:06:04</sys_created_on>
+        <sys_id>9d449dbb938747106eea367efaba1029</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_document_type</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9d449dbb938747106eea367efaba1029</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-13 15:39:34</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_document</table>
+        <ui_policy display_value="Make Document Type &amp; Attachment Read-Only on HR Review">51445dbb938747106eea367efaba10fc</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=9d449dbb938747106eea367efaba1029"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_ui_policy_action_9d449dbb938747106eea367efaba1029</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_document_type</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 14:06:04</sys_created_on>
+        <sys_id>9d449dbb938747106eea367efaba1029</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_document_type</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9d449dbb938747106eea367efaba1029</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-13 15:39:34</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_document</table>
+        <ui_policy display_value="Make Document Type &amp; Attachment Read-Only on HR Review">51445dbb938747106eea367efaba10fc</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d449dbb938747106eea367efaba1029"/>
+</record_update>]]></payload>
+        <payload_hash>-1946815545</payload_hash>
+        <record_name>u_document_type</record_name>
+        <reverted_from/>
+        <source>88ec580e73130310da9af85f4ab8b701</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:50:41</sys_created_on>
+        <sys_id>8dfcd44e73130310da9af85f4ab8b72b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f5375440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:50:41</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4dfcd44e11130310d0bee84aeb64f52b</update_guid>
+        <update_guid_history>4dfcd44e11130310d0bee84aeb64f52b:-1946815545</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 12:03:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0f028d70832943bc9510cf0997c2b631</sys_id>
+        <sys_metadata>9d449dbb938747106eea367efaba1029</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_document_type</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="">51445dbb938747106eea367efaba10fc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_9d449dbb938747106eea367efaba1029</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_9d449dbb938747106eea367efaba1029">8dfcd44e73130310da9af85f4ab8b72b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 12:03:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

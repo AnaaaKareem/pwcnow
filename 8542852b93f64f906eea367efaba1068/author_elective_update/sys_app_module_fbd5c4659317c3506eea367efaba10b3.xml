@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="PwCNow">7920eb4693cb83146eea367efaba1091</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>IT Cockpit</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/2ddb94dc73ef4350da9af85f4ab8b761/__state__/b64~eyI5MjNhOTEzYjUzMmMwMTEwYWFiOWRkZWVmZjdiMTI0MyI6eyJsaXN0X2NvbnRyb2xsZXJfMyI6eyJfIjp7InF1ZXJ5Ijoic3RhdGU9LTVeT1JzdGF0ZT0xXk9Sc3RhdGU9MiJ9fX19</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2182380_pwcnow.it_agent</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 18:53:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbd5c4659317c3506eea367efaba10b3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>IT Cockpit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_app_module_fbd5c4659317c3506eea367efaba10b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:08:04</sys_updated_on>
+        <timeline_page/>
+        <title>IT Cockpit</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name>IT Cockpit</window_name>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_app_module_fbd5c4659317c3506eea367efaba10b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="PwCNow">7920eb4693cb83146eea367efaba1091</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>IT Cockpit</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1200</order><override_menu_roles>false</override_menu_roles><query>/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/2ddb94dc73ef4350da9af85f4ab8b761/__state__/b64~eyI5MjNhOTEzYjUzMmMwMTEwYWFiOWRkZWVmZjdiMTI0MyI6eyJsaXN0X2NvbnRyb2xsZXJfMyI6eyJfIjp7InF1ZXJ5Ijoic3RhdGU9LTVeT1JzdGF0ZT0xXk9Sc3RhdGU9MiJ9fX19</query><report/><require_confirmation>true</require_confirmation><roles>x_2182380_pwcnow.it_agent</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 18:53:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fbd5c4659317c3506eea367efaba10b3</sys_id><sys_mod_count>4</sys_mod_count><sys_name>IT Cockpit</sys_name><sys_overrides/><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sys_app_module_fbd5c4659317c3506eea367efaba10b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-21 10:08:04</sys_updated_on><timeline_page/><title>IT Cockpit</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name>IT Cockpit</window_name></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1705038112</payload_hash>
+        <record_name>IT Cockpit</record_name>
+        <reverted_from/>
+        <source>824dd0ce73130310da9af85f4ab8b7d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 10:08:04</sys_created_on>
+        <sys_id>7304685073638350da9af85f4ab8b7b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0c36fe0930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:08:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bf0468507163835086cc40c06136fdb5</update_guid>
+        <update_guid_history>bf0468507163835086cc40c06136fdb5:-1705038112,f846abdede1fc31004c0dacec43b993a:-1076125435,2c69385664178310e25621dd71b45a8a:-2032545516,7ed4b082bc1703101522b826a524a5f5:782491603,c7ec504e611303100dfa54ebf4b066e1:328915309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IT Cockpit">0bdb2c9073a38350da9af85f4ab8b7e0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 10:42:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>619fd6075d0e47d2ae59b7789cd7d004</sys_id>
+        <sys_metadata>fbd5c4659317c3506eea367efaba10b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Cockpit</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_app_module_fbd5c4659317c3506eea367efaba10b3</sys_update_name>
+        <sys_update_version display_value="sys_app_module_fbd5c4659317c3506eea367efaba10b3">7304685073638350da9af85f4ab8b7b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:42:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

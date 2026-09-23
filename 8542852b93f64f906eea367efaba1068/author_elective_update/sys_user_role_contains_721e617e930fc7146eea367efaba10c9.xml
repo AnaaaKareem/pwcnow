@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_2182380_pwcnow.employee" name="x_2182380_pwcnow.employee">22fc42e393728f906eea367efaba1066</contains>
+        <role display_value="x_2182380_pwcnow.director" name="x_2182380_pwcnow.director">bc2e8a6793728f906eea367efaba10fc</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 13:25:01</sys_created_on>
+        <sys_id>721e617e930fc7146eea367efaba10c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.employee.x_2182380_pwcnow.director</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_user_role_contains_721e617e930fc7146eea367efaba10c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 13:25:01</sys_updated_on>
+    </sys_user_role_contains>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_user_role_contains_721e617e930fc7146eea367efaba10c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_2182380_pwcnow.employee" name="x_2182380_pwcnow.employee">22fc42e393728f906eea367efaba1066</contains>
+        <role display_value="x_2182380_pwcnow.director" name="x_2182380_pwcnow.director">bc2e8a6793728f906eea367efaba10fc</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 13:25:01</sys_created_on>
+        <sys_id>721e617e930fc7146eea367efaba10c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.employee.x_2182380_pwcnow.director</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_user_role_contains_721e617e930fc7146eea367efaba10c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 13:25:01</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>]]></payload>
+        <payload_hash>619513057</payload_hash>
+        <record_name>x_2182380_pwcnow.employee.x_2182380_pwcnow.director</record_name>
+        <reverted_from/>
+        <source>88ec580e73130310da9af85f4ab8b701</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:50:43</sys_created_on>
+        <sys_id>91fc184e73130310da9af85f4ab8b738</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f537a730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:50:43</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>51fc184ea3130310ddc3d6807e6aa738</update_guid>
+        <update_guid_history>51fc184ea3130310ddc3d6807e6aa738:619513057</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-20 05:09:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>ceb64437125a4364b2bf60121847f010</sys_id>
+        <sys_metadata>721e617e930fc7146eea367efaba10c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow.employee.x_2182380_pwcnow.director</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_721e617e930fc7146eea367efaba10c9</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_721e617e930fc7146eea367efaba10c9">91fc184e73130310da9af85f4ab8b738</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-20 05:09:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

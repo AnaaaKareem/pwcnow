@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(current.isNewRecord() || current.u_status == 'returned') &amp;&amp; (current.u_employee == gs.getUserID() || gs.hasRole('x_2182380_pwcnow.employee'))</condition>
+        <condition>true</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -34,35 +34,45 @@
         <order>100</order>
         <script><![CDATA[function submitEmployeeDocument() {
     var attachment = g_form.getValue('u_document_attachment');
+
     if (!attachment || attachment === '') {
         g_form.hideFieldMsg('u_document_attachment');
-        g_form.showFieldMsg('u_document_attachment', 'Please upload your document before submitting.', 'error');
+        g_form.showFieldMsg(
+            'u_document_attachment',
+            'Please upload your document before submitting.',
+            'error'
+        );
         return false;
     }
 
-    // Must match the "Action name" field on this UI Action form
+    // Call server portion directly (must match Action name 'submit_document')
     gsftSubmit(null, g_form.getFormElement(), 'submit_document');
 }
 
+// Server-side code execution
 if (typeof window == 'undefined') {
-    runSubmitServerCode();
+    runServerCode();
 }
 
-function runSubmitServerCode() {
-    current.setValue('u_status', 'requested');
-
-    // Handle new record creation vs re-submission of existing records
-    if (current.isNewRecord()) {
-        current.insert();
-    } else {
+function runServerCode() {
+    if (!current.isNewRecord()) {
+        // Set value directly on GlideRecord to bypass DOM/Form limitations
+        current.u_status = 'submitted'; 
         current.update();
+        gs.addInfoMessage('Document submitted successfully.');
+    } else {
+        gs.addErrorMessage('You cannot create a new document. Please submit an existing document request.');
     }
 
-    // Redirect to the Employee Document list view
-    action.setRedirectURL('x_2182380_pwcnow_employee_document_list.do');
+    // Redirect to list view filtered by Employee = dynamic (Me)
+    var redirectUrl = 'x_2182380_pwcnow_employee_document_list.do?' +
+                      'sysparm_view=employee_doc_sub' +
+                      '&sysparm_query=u_employee=javascript:gs.getUserID()';
+    
+    action.setRedirectURL(redirectUrl);
 }]]></script>
         <show_form_icon_only>false</show_form_icon_only>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_list_icon_only>false</show_list_icon_only>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -73,15 +83,15 @@ function runSubmitServerCode() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>645990e7934783106eea367efaba1008</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Submit Document</sys_name>
-        <sys_overrides display_value="Submit">0009ff1e7744111020da364c7d5a9933</sys_overrides>
+        <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
         <sys_policy/>
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_ui_action_645990e7934783106eea367efaba1008</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-13 05:41:52</sys_updated_on>
+        <sys_updated_on>2026-09-15 17:54:51</sys_updated_on>
         <table>x_2182380_pwcnow_employee_document</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

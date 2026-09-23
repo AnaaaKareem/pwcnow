@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="PwCNow">7920eb4693cb83146eea367efaba1091</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>HR Cockpit</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/tab-sys-id/ed8a68dc73638350da9af85f4ab8b7dd/sys-id/c18a68dc73638350da9af85f4ab8b7ac</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2182380_pwcnow.hr_agent</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 18:35:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fb148e993d3c3506eea367efaba10bc</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>HR Cockpit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_app_module_4fb148e993d3c3506eea367efaba10bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:36:52</sys_updated_on>
+        <timeline_page/>
+        <title>HR Cockpit</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name>HR Cockpit</window_name>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_app_module_4fb148e993d3c3506eea367efaba10bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="PwCNow">7920eb4693cb83146eea367efaba1091</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>HR Cockpit</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>900</order><override_menu_roles>false</override_menu_roles><query>/now/platform-analytics-workspace/dashboards/params/edit/false/tab-sys-id/ed8a68dc73638350da9af85f4ab8b7dd/sys-id/c18a68dc73638350da9af85f4ab8b7ac</query><report/><require_confirmation>true</require_confirmation><roles>x_2182380_pwcnow.hr_agent</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 18:35:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4fb148e993d3c3506eea367efaba10bc</sys_id><sys_mod_count>11</sys_mod_count><sys_name>HR Cockpit</sys_name><sys_overrides/><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sys_app_module_4fb148e993d3c3506eea367efaba10bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-21 10:36:52</sys_updated_on><timeline_page/><title>HR Cockpit</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name>HR Cockpit</window_name></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2114326276</payload_hash>
+        <record_name>HR Cockpit</record_name>
+        <reverted_from/>
+        <source>824dd0ce73130310da9af85f4ab8b7d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 10:36:52</sys_created_on>
+        <sys_id>69aaa01073a38350da9af85f4ab8b72d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0c38a3f0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:36:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a5aaa01091a383507c71f1f92aa2112c</update_guid>
+        <update_guid_history>a5aaa01091a383507c71f1f92aa2112c:-2114326276,f44aec9cb963835008ee38305a730db3:14585172,9b2a2c9c2d638350e08b712cc08d6b2c:-1215229608,c9c468d0616383503aef03a549a06839:14585172,38042850ee638350b89712e7bd93c535:153280440,b9c3ec1097638350f17bad8420307b7e:-404139409,4fb32c1048638350f6d31fe672b5dc3f:717178625,d9c83416e91783100debb5f7d9cd9ca9:1591434137,44d4b0820c17031083d63a820892636d:-2067753665,cfec504e62130310f3ae252e55df2b55:630098207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Cockpit">e8dbe49073a38350da9af85f4ab8b7e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 10:41:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1bd0b50e4e484400883de75e73eaf704</sys_id>
+        <sys_metadata>4fb148e993d3c3506eea367efaba10bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Cockpit</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_app_module_4fb148e993d3c3506eea367efaba10bc</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4fb148e993d3c3506eea367efaba10bc">69aaa01073a38350da9af85f4ab8b72d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:41:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
