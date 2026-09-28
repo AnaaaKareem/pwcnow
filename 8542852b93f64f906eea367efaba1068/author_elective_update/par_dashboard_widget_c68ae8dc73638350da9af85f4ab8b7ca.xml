@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">258a68dc73638350da9af85f4ab8b7e2</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Documents","wontWrap":false,"hasNoMargin":false,"level":"1","align":"center"}</component_props>
+        <h>3</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Documents","code":"PAR_DASHBOARD.258a68dc73638350da9af85f4ab8b7e2.c68ae8dc73638350da9af85f4ab8b7ca"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 10:36:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c68ae8dc73638350da9af85f4ab8b7ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>par_dashboard_widget_c68ae8dc73638350da9af85f4ab8b7ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:36:21</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>45</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>par_dashboard_widget_c68ae8dc73638350da9af85f4ab8b7ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">258a68dc73638350da9af85f4ab8b7e2</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Documents","wontWrap":false,"hasNoMargin":false,"level":"1","align":"center"}</component_props><h>3</h><name/><required_translations>[{"comment":"","message":"Documents","code":"PAR_DASHBOARD.258a68dc73638350da9af85f4ab8b7e2.c68ae8dc73638350da9af85f4ab8b7ca"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-21 10:36:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c68ae8dc73638350da9af85f4ab8b7ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>par_dashboard_widget_c68ae8dc73638350da9af85f4ab8b7ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-21 10:36:21</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>45</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>115070955</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>824dd0ce73130310da9af85f4ab8b7d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 10:36:21</sys_created_on>
+        <sys_id>428ae8dc73638350da9af85f4ab8b7ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0c389c7c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 10:36:21</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>028ae8dcdb63835002912f2824ce12cd</update_guid>
+        <update_guid_history>028ae8dcdb63835002912f2824ce12cd:115070955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7c4577de73a3c390da9af85f4ab8b736</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 06:29:56</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>47d6e189a9a74e0191b06df706d74909</sys_id>
+        <sys_metadata>c68ae8dc73638350da9af85f4ab8b7ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_c68ae8dc73638350da9af85f4ab8b7ca</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_c68ae8dc73638350da9af85f4ab8b7ca">428ae8dc73638350da9af85f4ab8b7ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 06:29:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

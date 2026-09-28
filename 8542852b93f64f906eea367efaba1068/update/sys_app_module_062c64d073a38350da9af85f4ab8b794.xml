@@ -15,7 +15,7 @@
         <name/>
         <order>900</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/tab-sys-id/3f8ac498736f4350da9af85f4ab8b74b/sys-id/af8ac498736f4350da9af85f4ab8b728/__state__/b64~eyI5MjNhOTEzYjUzMmMwMTEwYWFiOWRkZWVmZjdiMTI0MyI6eyJsaXN0X2NvbnRyb2xsZXJfMyI6eyJfIjp7InF1ZXJ5Ijoic3RhdGU9LTVeT1JzdGF0ZT0xXk9Sc3RhdGU9MiJ9fX19</query>
+        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/af8ac498736f4350da9af85f4ab8b728</query>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_2182380_pwcnow.hr_agent</roles>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>062c64d073a38350da9af85f4ab8b794</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>HR Cockpit</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_app_module_062c64d073a38350da9af85f4ab8b794</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-21 10:47:47</sys_updated_on>
+        <sys_updated_on>2026-09-28 06:30:17</sys_updated_on>
         <timeline_page/>
         <title>HR Cockpit</title>
         <uncancelable>false</uncancelable>
