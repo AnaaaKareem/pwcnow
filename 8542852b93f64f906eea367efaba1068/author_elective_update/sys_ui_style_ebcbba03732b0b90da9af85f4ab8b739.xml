@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>u_due_date</element>
+        <name>x_2182380_pwcnow_employee_document</name>
+        <style>background-color:red;&#13;
+color:white;&#13;
+font-weight:bold;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>fhashem</sys_created_by>
+        <sys_created_on>2026-09-30 10:17:29</sys_created_on>
+        <sys_id>ebcbba03732b0b90da9af85f4ab8b739</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow_employee_document</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_ui_style_ebcbba03732b0b90da9af85f4ab8b739</sys_update_name>
+        <sys_updated_by>fhashem</sys_updated_by>
+        <sys_updated_on>2026-09-30 10:17:29</sys_updated_on>
+        <themed_style/>
+        <value>javascript:current.u_due_date &lt; gs.nowDate() `</value>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=ebcbba03732b0b90da9af85f4ab8b739"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_ui_style_ebcbba03732b0b90da9af85f4ab8b739</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>u_due_date</element><name>x_2182380_pwcnow_employee_document</name><style>background-color:red;&#13;
+color:white;&#13;
+font-weight:bold;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>fhashem</sys_created_by><sys_created_on>2026-09-30 10:17:29</sys_created_on><sys_id>ebcbba03732b0b90da9af85f4ab8b739</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2182380_pwcnow_employee_document</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sys_ui_style_ebcbba03732b0b90da9af85f4ab8b739</sys_update_name><sys_updated_by>fhashem</sys_updated_by><sys_updated_on>2026-09-30 10:17:29</sys_updated_on><themed_style/><value>javascript:current.u_due_date &lt; gs.nowDate() `</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=ebcbba03732b0b90da9af85f4ab8b739"/></record_update>]]></payload>
+        <payload_hash>760163604</payload_hash>
+        <record_name>x_2182380_pwcnow_employee_document</record_name>
+        <reverted_from/>
+        <source>0b25fa567397c310da9af85f4ab8b77a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>fhashem</sys_created_by>
+        <sys_created_on>2026-09-30 10:17:29</sys_created_on>
+        <sys_id>a18c3283732b0b90da9af85f4ab8b732</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0f1d1bd1b0000001</sys_recorded_at>
+        <sys_updated_by>fhashem</sys_updated_by>
+        <sys_updated_on>2026-09-30 10:17:29</sys_updated_on>
+        <type>Style</type>
+        <update_guid>618c3283c32b0b904c0a6eb723153a31</update_guid>
+        <update_guid_history>618c3283c32b0b904c0a6eb723153a31:760163604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>fhashem</sys_created_by>
+        <sys_created_on>2026-09-30 10:37:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>024b1898e9264373ae85fc986f7ae5d1</sys_id>
+        <sys_metadata>ebcbba03732b0b90da9af85f4ab8b739</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow_employee_document</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Employee Document">eed8026b93328f906eea367efaba1008</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_style_ebcbba03732b0b90da9af85f4ab8b739</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_ebcbba03732b0b90da9af85f4ab8b739">a18c3283732b0b90da9af85f4ab8b732</sys_update_version>
+        <sys_updated_by>fhashem</sys_updated_by>
+        <sys_updated_on>2026-09-30 10:37:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -33,18 +33,6 @@
         <onclick>submitEmployeeDocument()</onclick>
         <order>100</order>
         <script><![CDATA[function submitEmployeeDocument() {
-    var attachment = g_form.getValue('u_document_attachment');
-
-    if (!attachment || attachment === '') {
-        g_form.hideFieldMsg('u_document_attachment');
-        g_form.showFieldMsg(
-            'u_document_attachment',
-            'Please upload your document before submitting.',
-            'error'
-        );
-        return false;
-    }
-
     // Call server portion directly (must match Action name 'submit_document')
     gsftSubmit(null, g_form.getFormElement(), 'submit_document');
 }
@@ -56,19 +44,17 @@ if (typeof window == 'undefined') {
 
 function runServerCode() {
     if (!current.isNewRecord()) {
-        // Set value directly on GlideRecord to bypass DOM/Form limitations
-        current.u_status = 'submitted'; 
+        current.u_status = 'submitted';
         current.update();
         gs.addInfoMessage('Document submitted successfully.');
     } else {
         gs.addErrorMessage('You cannot create a new document. Please submit an existing document request.');
     }
 
-    // Redirect to list view filtered by Employee = dynamic (Me)
     var redirectUrl = 'x_2182380_pwcnow_employee_document_list.do?' +
                       'sysparm_view=employee_doc_sub' +
                       '&sysparm_query=u_employee=javascript:gs.getUserID()';
-    
+
     action.setRedirectURL(redirectUrl);
 }]]></script>
         <show_form_icon_only>false</show_form_icon_only>
@@ -83,7 +69,7 @@ function runServerCode() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>645990e7934783106eea367efaba1008</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Submit Document</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -91,7 +77,7 @@ function runServerCode() {
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_ui_action_645990e7934783106eea367efaba1008</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-15 17:54:51</sys_updated_on>
+        <sys_updated_on>2026-10-01 14:26:47</sys_updated_on>
         <table>x_2182380_pwcnow_employee_document</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

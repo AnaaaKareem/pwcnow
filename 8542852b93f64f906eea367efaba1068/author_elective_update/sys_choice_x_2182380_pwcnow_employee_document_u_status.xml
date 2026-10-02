@@ -129,5 +129,24 @@
             <sys_updated_on>2026-09-15 12:59:15</sys_updated_on>
             <value>submitted</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overdue</label>
+            <language>en</language>
+            <name>x_2182380_pwcnow_employee_document</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>fhashem</sys_created_by>
+            <sys_created_on>2026-09-30 10:55:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fhashem</sys_updated_by>
+            <sys_updated_on>2026-09-30 10:55:53</sys_updated_on>
+            <value>overdue</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

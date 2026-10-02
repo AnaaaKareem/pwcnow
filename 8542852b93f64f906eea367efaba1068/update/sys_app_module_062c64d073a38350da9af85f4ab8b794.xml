@@ -13,7 +13,7 @@
         <mobile_title>HR Cockpit</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>900</order>
+        <order>1100</order>
         <override_menu_roles>false</override_menu_roles>
         <query>/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/af8ac498736f4350da9af85f4ab8b728</query>
         <report/>
@@ -27,17 +27,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>062c64d073a38350da9af85f4ab8b794</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>HR Cockpit</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HR Dashboard</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
         <sys_policy/>
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_app_module_062c64d073a38350da9af85f4ab8b794</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-28 06:30:17</sys_updated_on>
+        <sys_updated_on>2026-10-01 05:01:30</sys_updated_on>
         <timeline_page/>
-        <title>HR Cockpit</title>
+        <title>HR Dashboard</title>
         <uncancelable>false</uncancelable>
         <ux_list/>
         <view_name/>

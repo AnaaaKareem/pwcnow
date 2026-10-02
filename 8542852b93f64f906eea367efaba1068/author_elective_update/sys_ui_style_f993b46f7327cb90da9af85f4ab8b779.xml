@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>u_status</element>
+        <name>x_2182380_pwcnow_employee_training</name>
+        <style>background-color: gray;&#13;
+color: black;&#13;
+font-weight: bold;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-01 13:36:25</sys_created_on>
+        <sys_id>f993b46f7327cb90da9af85f4ab8b779</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_2182380_pwcnow_employee_training</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_ui_style_f993b46f7327cb90da9af85f4ab8b779</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-01 13:44:48</sys_updated_on>
+        <themed_style/>
+        <value>cancelled</value>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=f993b46f7327cb90da9af85f4ab8b779"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <name>sys_ui_style_f993b46f7327cb90da9af85f4ab8b779</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>u_status</element><name>x_2182380_pwcnow_employee_training</name><style>background-color: gray;&#13;
+color: black;&#13;
+font-weight: bold;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-01 13:36:25</sys_created_on><sys_id>f993b46f7327cb90da9af85f4ab8b779</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_2182380_pwcnow_employee_training</sys_name><sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package><sys_policy/><sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope><sys_update_name>sys_ui_style_f993b46f7327cb90da9af85f4ab8b779</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-01 13:44:48</sys_updated_on><themed_style/><value>cancelled</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=f993b46f7327cb90da9af85f4ab8b779"/></record_update>]]></payload>
+        <payload_hash>1477906465</payload_hash>
+        <record_name>x_2182380_pwcnow_employee_training</record_name>
+        <reverted_from/>
+        <source>b015fe0a732f0390da9af85f4ab8b7d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-01 13:44:48</sys_created_on>
+        <sys_id>cc95b4637367cb90da9af85f4ab8b72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0f7b5e7820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-01 13:44:48</sys_updated_on>
+        <type>Style</type>
+        <update_guid>0c95b463b967cb900db656221079f02e</update_guid>
+        <update_guid_history>0c95b463b967cb900db656221079f02e:1477906465,11a3b46fd927cb90b61bbbdf77b66b84:317693131</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-01 13:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>23b9e3a649c341328a8c9e27cb2c1024</sys_id>
+        <sys_metadata>f993b46f7327cb90da9af85f4ab8b779</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2182380_pwcnow_employee_training</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Employee Training">c5f8466b93328f906eea367efaba1080</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_style_f993b46f7327cb90da9af85f4ab8b779</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_f993b46f7327cb90da9af85f4ab8b779">cc95b4637367cb90da9af85f4ab8b72f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-01 13:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
