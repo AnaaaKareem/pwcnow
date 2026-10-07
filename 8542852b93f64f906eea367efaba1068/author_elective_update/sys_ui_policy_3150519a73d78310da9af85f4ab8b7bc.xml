@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_2182380_pwcnow_employee_document">u_status=submitted<item display_value="Submitted" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="submitted"/>
+        </conditions>
+        <description/>
+        <global>false</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+    g_form.setDisplay('u_reviewer_comments', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    // Check if an attachment exists on the current form
+    if (typeof g_form !== 'undefined') {
+        var hasAttachment = g_form.getControl('header_attachment_list_label') || 
+                            document.querySelector('.attachment_list_items') ||
+                            g_form.getValue('u_document_attachment');
+        
+        if (hasAttachment) {
+            g_form.setDisplay('u_reviewer_comments', true);
+        } else {
+            g_form.setDisplay('u_reviewer_comments', false);
+        }
+    }
+}]]></script_true>
+        <set_values/>
+        <short_description>HR View Show Reviewer Comments</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-15 08:14:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3150519a73d78310da9af85f4ab8b7bc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>HR View Show Reviewer Comments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_update_name>sys_ui_policy_3150519a73d78310da9af85f4ab8b7bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-02 15:50:35</sys_updated_on>
+        <table>x_2182380_pwcnow_employee_document</table>
+        <ui_type>0</ui_type>
+        <view display_value="" name="hr_doc_request">hr_doc_request</view>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PwCNow">8542852b93f64f906eea367efaba1068</application>
+        <file_path/>
+        <instance_id>9820c86eebf1cf5856eafddacad0cd13</instance_id>
+        <instance_name>dev419920</instance_name>
+        <merge_base/>
+        <name>sys_ui_policy_3150519a73d78310da9af85f4ab8b7bc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_2182380_pwcnow_employee_document"&gt;u_status=submitted&lt;item display_value="Submitted" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="submitted"/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+    g_form.setDisplay('u_reviewer_comments', false);
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+    // Check if an attachment exists on the current form
+    if (typeof g_form !== 'undefined') {
+        var hasAttachment = g_form.getControl('header_attachment_list_label') || 
+                            document.querySelector('.attachment_list_items') ||
+                            g_form.getValue('u_document_attachment');
+        
+        if (hasAttachment) {
+            g_form.setDisplay('u_reviewer_comments', true);
+        } else {
+            g_form.setDisplay('u_reviewer_comments', false);
+        }
+    }
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;HR View Show Reviewer Comments&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-15 08:14:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3150519a73d78310da9af85f4ab8b7bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;HR View Show Reviewer Comments&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="PwCNow" source="x_2182380_pwcnow"&gt;8542852b93f64f906eea367efaba1068&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PwCNow"&gt;8542852b93f64f906eea367efaba1068&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_3150519a73d78310da9af85f4ab8b7bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-02 15:50:35&lt;/sys_updated_on&gt;&lt;table&gt;x_2182380_pwcnow_employee_document&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view display_value="" name="hr_doc_request"&gt;hr_doc_request&lt;/view&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-746062756</payload_hash>
+        <record_name>HR View Show Reviewer Comments</record_name>
+        <reverted_from/>
+        <source>b015fe0a732f0390da9af85f4ab8b7d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-02 15:50:35</sys_created_on>
+        <sys_id>1cfbdef773af4f90da9af85f4ab8b704</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0fd4f6bdc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-02 15:50:35</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>1cfbdef7bfaf4f90d09035470a4dd103</update_guid>
+        <update_guid_history>1cfbdef7bfaf4f90d09035470a4dd103:-746062756,55d475deb51f83102e62659ec275c206:-497315194,92722156c49b83109ab0475223b3e938:1332879441,7182d1ded3d78310c70edae2285035bc:-497315194,6e525d9ea5d783104c510880f92dbc44:1120953475,e870d19a9dd7831061b6c215a5873689:2078142614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 07:50:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>3ebbb59703f44ae4baaa603293889204</sys_id>
+        <sys_metadata>3150519a73d78310da9af85f4ab8b7bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR View Show Reviewer Comments</sys_name>
+        <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
+        <sys_parent display_value="Employee Document">eed8026b93328f906eea367efaba1008</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
+        <sys_scope_delete display_value="">cacb20fd35de471e95649f087348df04</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_3150519a73d78310da9af85f4ab8b7bc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_3150519a73d78310da9af85f4ab8b7bc">1cfbdef773af4f90da9af85f4ab8b704</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 07:50:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
