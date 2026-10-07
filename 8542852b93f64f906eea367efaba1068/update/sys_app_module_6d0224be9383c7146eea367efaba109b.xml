@@ -15,7 +15,7 @@
         <name/>
         <order>1700</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/ccc4588073efcf10da9af85f4ab8b738</query>
+        <query>https://dev419920.service-now.com/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/ccc4588073efcf10da9af85f4ab8b738</query>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_2182380_pwcnow.director</roles>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d0224be9383c7146eea367efaba109b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>HR KPIs</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_app_module_6d0224be9383c7146eea367efaba109b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-01 05:08:30</sys_updated_on>
+        <sys_updated_on>2026-10-07 17:56:16</sys_updated_on>
         <timeline_page/>
         <title>HR KPIs</title>
         <uncancelable>false</uncancelable>

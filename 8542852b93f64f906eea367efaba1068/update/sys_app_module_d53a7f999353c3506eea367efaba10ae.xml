@@ -15,7 +15,7 @@
         <name/>
         <order>500</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>/esc</query>
+        <query>https://dev419920.service-now.com/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/a552cd9a73578310da9af85f4ab8b7d4</query>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_2182380_pwcnow.employee</roles>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d53a7f999353c3506eea367efaba10ae</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>My PwCNow</sys_name>
         <sys_overrides/>
         <sys_package display_value="PwCNow" source="x_2182380_pwcnow">8542852b93f64f906eea367efaba1068</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="PwCNow">8542852b93f64f906eea367efaba1068</sys_scope>
         <sys_update_name>sys_app_module_d53a7f999353c3506eea367efaba10ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-07 10:47:04</sys_updated_on>
+        <sys_updated_on>2026-10-07 17:51:52</sys_updated_on>
         <timeline_page/>
         <title>My PwCNow</title>
         <uncancelable>false</uncancelable>
