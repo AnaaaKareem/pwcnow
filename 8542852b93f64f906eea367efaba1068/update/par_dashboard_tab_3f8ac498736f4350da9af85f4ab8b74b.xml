@@ -2,7 +2,7 @@
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color/>
-        <dashboard display_value="HR Cockpit">af8ac498736f4350da9af85f4ab8b728</dashboard>
+        <dashboard display_value="HR Dashboard">af8ac498736f4350da9af85f4ab8b728</dashboard>
         <name>New Tab 20</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>
